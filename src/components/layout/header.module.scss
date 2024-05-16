@@ -173,7 +173,7 @@
             margin: auto 90px auto auto;
             display: block !important;
             width: calc(100% - 70%);
-                margin: 0 auto;
+            margin: 0 auto;
             @include breakpoint(xxl-device) {
                 width: calc(100% - 60px);
                 margin: 0 auto;
@@ -234,21 +234,27 @@
         }
     }
 }
-.sticky_holder.is-sticky{
-    padding-bottom:20px !important ;
+.sticky_holder.is-sticky {
+    padding-bottom: 20px !important ;
 }
 
-@media (max-width:768px){
-    .top{
+@media (max-width: 992px) {
+    .top {
         background-color: $white;
     }
-    .offcanvas__btn, .right a{
+    .offcanvas__btn,
+    .right a {
         color: $secondary;
     }
     .search {
         &__btn {
-         
             color: $secondary;
+        }
+    }
+
+    .fixed {
+        &__logo {
+            display: none !important;
         }
     }
 }

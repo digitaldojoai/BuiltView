@@ -39,7 +39,7 @@
     }
     &:before {
         @include breakpoint(min-lg-device) {
-            background-color: #0CB9EB;
+            background-color: #eeeeee;
             width: 1px;
             height: 100px;
             content: '';

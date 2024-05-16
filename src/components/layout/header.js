@@ -266,7 +266,7 @@ function Header() {
                             </Col>
                         </Row>
                     </Container>
-                    <div className={`${classes.fixed__logo} d-lg-flex`}>
+                    <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
                             <img
                                 src="/images/logo.svg"
