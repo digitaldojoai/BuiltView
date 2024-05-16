@@ -167,14 +167,7 @@ function Footer({ footerItems }) {
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
                                             © {new Date().getFullYear()}{' '}
-                                            BuiltView Made with
-                                            <span className={classes.icon}>
-                                                <FaIcons.FaHeart />
-                                            </span>
-                                            by
-                                            <a href="https://hasthemes.com/">
-                                                HasThemes
-                                            </a>
+                                            BuiltView
                                         </span>
                                     </div>
                                 </Col>
