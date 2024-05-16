@@ -13,11 +13,8 @@ import {
     ListIcon,
     Button,
 } from '@chakra-ui/react';
-import { FaCheckCircle } from 'react-icons/fa';
-import { FaCheck } from 'react-icons/fa';
+import { FaCheckCircle, FaCheck } from 'react-icons/fa';
 import classes from '../banner/banner-3.module.scss';
-
-
 
 export default function ThreeTierPricing() {
     return (

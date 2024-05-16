@@ -12,7 +12,7 @@ function Footer({ footerItems }) {
                 <Fragment key={footerItem.id}>
                     <div className={`${classes.bg}`}>
                         <Container>
-                            <Row className='row-class-footer'>
+                            <Row className="row-class-footer">
                                 <Col lg={{ span: 3 }}>
                                     <div className={classes.widget__item}>
                                         <Link href="/" className={classes.logo}>

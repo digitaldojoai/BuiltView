@@ -13,6 +13,7 @@ import { getAllItems } from '../../lib/items-util';
 import BannerTwoTwo from '../../components/banner/index-22';
 import BannerFourFour from '../../components/banner/index-44';
 import VideoComponent from '../../components/video/video';
+
 function ServicePage({
     aboutItemsTwo,
     services,
@@ -57,7 +58,6 @@ function ServicePage({
             />
             ;
             <VideoComponent />
-           
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>
@@ -95,7 +95,6 @@ export function getStaticProps() {
         },
     };
 }
-
 
 ServicePage.propTypes = {
     aboutItemsTwo: PropTypes.instanceOf(Object).isRequired,

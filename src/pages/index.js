@@ -37,7 +37,6 @@ function HomePage({
     blogSectionItems,
     newsletterItems,
     footerItems,
-   
 }) {
     return (
         <>
@@ -50,7 +49,7 @@ function HomePage({
                 />
             </Head>
             <Hero heroItems={heroItems} />
-            <VideoComponent/>
+            <VideoComponent />
             {/* <BannerOne bannerItems={bannerItems} /> */}
             <AboutOne aboutItems={aboutItems} />
             <BannerFour
@@ -103,7 +102,7 @@ export function getStaticProps() {
     const LatestBlog = getFeaturedItems(blogs);
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
-   
+
     return {
         props: {
             heroItems,
@@ -147,6 +146,8 @@ HomePage.propTypes = {
     blogSectionItems: PropTypes.instanceOf(Object).isRequired,
     newsletterItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
+    bannerFourItems: PropTypes.instanceOf(Object).isRequired,
+    bannerSection: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default HomePage;

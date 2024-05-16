@@ -3,7 +3,14 @@ import { Col } from 'react-bootstrap';
 import Link from 'next/link';
 import classes from './project.module.scss';
 
-function ProjectSidebar({clientName, location, area, budget, architect, druration}) {
+function ProjectSidebar({
+    clientName,
+    location,
+    area,
+    budget,
+    architect,
+    druration,
+}) {
     return (
         <Col lg={{ span: 3 }}>
             <div className="sidebar pt-max-md-25">
@@ -21,8 +28,7 @@ function ProjectSidebar({clientName, location, area, budget, architect, druratio
                         </li>
 
                         <li>
-                            Area:{' '}
-                            <span className="text-primary">{area}</span>
+                            Area: <span className="text-primary">{area}</span>
                         </li>
 
                         <li>
@@ -40,7 +46,6 @@ function ProjectSidebar({clientName, location, area, budget, architect, druratio
                         </li>
                     </ul>
                 </div>
-             
             </div>
         </Col>
     );

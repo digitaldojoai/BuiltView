@@ -117,6 +117,7 @@ function Header() {
                                                 className="search-inner__btn"
                                                 type="submit"
                                             >
+                                                {}
                                                 <FaSearch />
                                             </button>
                                         </form>
@@ -257,6 +258,7 @@ function Header() {
                                                     className="search-inner__btn"
                                                     type="submit"
                                                 >
+                                                    {}
                                                     <FaSearch />
                                                 </button>
                                             </form>

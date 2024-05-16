@@ -123,7 +123,7 @@ function Login() {
                                     className={classes.containerSpan}
                                     xs={{ span: 12 }}
                                 >
-                                    <span> Don't have an account?</span>
+                                    <span> Don&apos;t have an account?</span>
                                     <Link
                                         href="/register"
                                         style={{

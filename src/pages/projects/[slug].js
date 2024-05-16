@@ -28,7 +28,10 @@ function ProjectDetailPage({
                 />
             </Head>
             <div className="client-details-banner">
-                {console.log("test------------------------------------ ", projects)}
+                {console.log(
+                    'test------------------------------------ ',
+                    projects
+                )}
                 <Container>
                     <div className="page_content">
                         {/* <span className="page_subtitle">subtitle</span> */}

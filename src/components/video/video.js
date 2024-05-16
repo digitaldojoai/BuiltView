@@ -1,6 +1,5 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { FaPlay } from 'react-icons/fa';
-import { useState } from 'react';
 
 function VideoComponent() {
     const videoRef = useRef();
@@ -26,25 +25,29 @@ function VideoComponent() {
         }
     };
     return (
-        <div className='container'>
-       
-        <div className="video-container 
-         ">
-        <h2 className='title-video-main align-self-center'>Our Product</h2>
-            <FaPlay
-                className={`${isPlaying} play-button`}
-                onClick={handlePlayPause}
-            />
-
-            <video
-                width="100%"
-                height="315"
-                ref={videoRef}
-                onClick={handleVideo}
+        <div className="container">
+            <div
+                className="video-container 
+         "
             >
-                <source src="/images/vid.mp4" type="video/mp4" />
-            </video>
-        </div>
+                <h2 className="title-video-main align-self-center">
+                    Our Product
+                </h2>
+                <FaPlay
+                    className={`${isPlaying} play-button`}
+                    onClick={handlePlayPause}
+                />
+
+                <video
+                    width="100%"
+                    height="315"
+                    ref={videoRef}
+                    onClick={handleVideo}
+                >
+                    <track kind="captions" src="/#" label="English" />
+                    <source src="/images/vid.mp4" type="video/mp4" />
+                </video>
+            </div>
         </div>
     );
 }

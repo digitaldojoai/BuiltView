@@ -23,8 +23,8 @@ function ProjectFullwidthPage({
             </Head>
             <Breadcrumb subTitle="Pricing" title="Our Pricing Tables" desc="" />
             <Pricing />
-            
-        <Procore/>
+
+            <Procore />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>

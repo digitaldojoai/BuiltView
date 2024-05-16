@@ -46,7 +46,6 @@ function Hero({ heroItems, settings }) {
                             <div
                                 className={`btn-animation ${classes.btn_wrap}`}
                             >
-                               
                                 <Link
                                     href="/contact"
                                     className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white}`}
