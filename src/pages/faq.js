@@ -26,6 +26,7 @@ function ProjectFullwidthPage({
                 subTitle="FAQs"
                 title="Frequently Asked Questions"
                 desc=""
+                bg="/images/hero/faq.jpg"
             />
             <Faq />
 

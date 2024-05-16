@@ -37,7 +37,11 @@ function ServicePage({
                     content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
                 />
             </Head>
-            <Breadcrumb subTitle="What we offer" title="Our Features" />
+            <Breadcrumb
+                subTitle="What we offer"
+                title="Our Features"
+                bg="/images/hero/about.jpeg"
+            />
             {/* <AboutTwo aboutItemsTwo={aboutItemsTwo} />
             <AllServices
                 services={services}

@@ -1,6 +1,6 @@
 ---
 title: 'Duplex House'
-image: 'duplex-house.jpg'
+image: 'duplex-house.jpeg'
 subTitle: ''
 duration: 'Duration: 08 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

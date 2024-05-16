@@ -79,7 +79,7 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
                                         <img
-                                            src="/images/logo/light.png"
+                                            src="/images/logo.svg"
                                             alt="Header Lisght Logo"
                                         />
                                     </Link>
@@ -148,7 +148,7 @@ function Header() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="/features">
                                                 <span>Features</span>
                                             </Link>
                                         </li>
@@ -269,7 +269,7 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
                             <img
-                                src="/images/logo/dark.png"
+                                src="/images/logo.svg"
                                 alt="Header Dark Logo"
                             />
                         </Link>

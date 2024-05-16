@@ -16,7 +16,12 @@ function ContactPage({ contactItems, newsletterItems, footerItems }) {
                     content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
                 />
             </Head>
-            <Breadcrumb subTitle="Contact us" title="Get in Touch" desc="" />
+            <Breadcrumb
+                subTitle="Contact us"
+                title="Get in Touch"
+                desc=""
+                bg="/images/hero/contact.jpg"
+            />
             <Contact contactItems={contactItems} />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />

@@ -9,12 +9,13 @@
         background-size: cover;
         height: 786px;
         display: flex;
+        color: white; //added new
         align-items: center;
         @include breakpoint(max-xl-device) {
             height: 610px;
         }
         &-01 {
-            background-image: url('/images/hero/construct.jpg');
+            background-image: url('/images/hero/home.jpg');
         }
         &-02 {
             background-image: url('/images/hero/2.jpg');

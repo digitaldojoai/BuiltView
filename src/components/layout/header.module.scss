@@ -229,3 +229,21 @@
         }
     }
 }
+.sticky_holder.is-sticky{
+    padding-bottom:20px !important ;
+}
+
+@media (max-width:768px){
+    .top{
+        background-color: $white;
+    }
+    .offcanvas__btn, .right a{
+        color: $secondary;
+    }
+    .search {
+        &__btn {
+         
+            color: $secondary;
+        }
+    }
+}

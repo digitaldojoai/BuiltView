@@ -1,6 +1,6 @@
 ---
 title: 'Pink Garden'
-image: 'pink-garden.jpg'
+image: 'pink-garden.jpeg'
 subTitle: ''
 duration: 'Duration: 6 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

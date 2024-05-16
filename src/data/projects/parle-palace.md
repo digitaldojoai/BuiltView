@@ -1,6 +1,6 @@
 ---
 title: 'Parle Palace'
-image: 'parle-palace.jpg'
+image: 'parle-palace.jpeg'
 subTitle: ''
 duration: 'Duration: 35 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

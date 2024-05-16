@@ -1,6 +1,6 @@
 ---
 title: 'Calton Bridge'
-image: 'calton-bridge.jpg'
+image: 'calton-bridge.jpeg'
 subTitle: 'CONSTRUCTION'
 duration: 'Duration: 24 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

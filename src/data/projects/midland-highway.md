@@ -1,6 +1,6 @@
 ---
 title: 'Midland Highway'
-image: 'midland-highway.jpg'
+image: 'midland-highway.jpeg'
 subTitle: ''
 duration: 'Duration: 29 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
