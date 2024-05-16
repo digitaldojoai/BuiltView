@@ -151,13 +151,16 @@
 /* -Fixed Logo- */
 .fixed {
     &__logo {
-        background-color: $white;
+        background-color: rgb(255, 255, 255);
         width: 28%;
         height: 100%;
         position: absolute;
+
         top: 0px;
         left: -10px;
-        display: flex;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
         -webkit-box-align: center;
         align-items: center;
         @include breakpoint(xxl-device) {
@@ -168,7 +171,9 @@
         }
         .logo {
             margin: auto 90px auto auto;
-            display: block;
+            display: block !important;
+            width: calc(100% - 70%);
+                margin: 0 auto;
             @include breakpoint(xxl-device) {
                 width: calc(100% - 60px);
                 margin: 0 auto;

@@ -35,7 +35,7 @@
         &__white {
             &:hover {
                 background-color: $white;
-                color: inherit;
+                color: $secondary;
             }
         }
         &__primary {
