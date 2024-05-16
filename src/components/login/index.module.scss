@@ -1,0 +1,230 @@
+@import '../../styles/abstract/custom-variables';
+@import '../../styles/abstract/custom-mixins';
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    max-height: 100vh !important;
+}
+
+.area {
+    display: flex;
+    align-self: center;
+    width: 100%;
+
+    
+}
+.form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center !important;
+    margin-top: 10%;
+}
+.title {
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 0;
+    
+}
+.label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.input {
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    font-family: $yantramanav;
+    width: 70%;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.checkbox {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    &_label {
+        vertical-align: top;
+        font-size: 14px;
+    }
+}
+.forgotton {
+    &_password {
+        a {
+            font-size: 14px;
+            color: inherit;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.btn {
+    transition: $baseTransition;
+    background-color: $primary;
+    padding: 10px 15px;
+    padding: 15px;
+    display: flex;
+    width: 70% !important;
+    margin-top: 10px;
+    border-radius: 0;
+    cursor: pointer;
+    color: $white;
+    border: 0;
+    font-weight: 500;
+    font-size: 18px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &:hover {
+        background-color: $secondary;
+    }
+}
+
+.procore{
+    transition: $baseTransition;
+    background-color: black;
+    padding: 10px 15px;
+    padding: 15px;
+    display: flex;
+    width: 70% !important;
+    border-radius: 0;
+    cursor: pointer;
+    color: $white;
+    border: 0;
+    font-weight: 500;
+    font-size: 18px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    &:hover {
+        background-color: $white;
+        color: black;
+        border: 1px solid rgb(239, 100, 53);
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.image {
+    height: 102vh !important;
+}
+
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4d4d4dc9;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &::before,
+    &::after {
+        content: "";
+        flex-grow: 1;
+        background: $white;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.348);
+        height: 0.5px;
+        margin: 0 10px;
+    }
+}
+.OauthBtn{
+    transition: $baseTransition;
+    padding: 20px;
+    background-color: $white;
+    border: 1px solid #54525208;
+    &:hover {
+        background-color: rgba(202, 202, 202, 0.12);
+        color: $white;
+    }
+}
+.OauthBtn{
+    cursor: pointer;
+}
+
+.containerBtn{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width:70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.containerSpan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:70%
+}
+
+.subtitle{
+    color: #3e3e3e;
+    font-weight: 300;
+    margin-bottom: 20px !important;
+    border: 2px;
+}
+// mobile screen styling
+@media (max-width: 768px){
+    .container{
+        display: block;
+    }
+    .image {
+        display: none;
+    }
+    .form {
+        padding: 10px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .input {
+        width: 100%;
+    }
+    .btn {
+        width: 100% !important;
+    }
+    .containerSpan{
+        width: 100%;
+    }
+    .procore{
+        width: 100% !important;
+    }
+    .span{
+        width:100%;
+    }
+    .OauthBtn{
+        width: 100% !important;
+    }
+    // .containerSpan{
+    //     width:100%;
+    // }
+    .containerBtn{
+        width: 100%;
+    }
+
+}
+
