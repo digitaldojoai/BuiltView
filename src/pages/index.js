@@ -41,7 +41,7 @@ function HomePage({
     return (
         <>
             <Head>
-                <title>Home - Oxybuild</title>
+                <title>Home - BuiltView</title>
                 <meta
                     name="description"
                     content="Builtview - We Construct

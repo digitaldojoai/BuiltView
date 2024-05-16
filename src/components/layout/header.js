@@ -88,10 +88,8 @@ function Header() {
                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
                                     <div>
-                                        <Link href="/login-register">
-                                            Login
-                                            <span>/ Register</span>
-                                        </Link>
+                                        <Link href="/login">Login</Link>
+                                        <Link href="/register">/ Register</Link>
                                     </div>
                                     <div
                                         className={`${

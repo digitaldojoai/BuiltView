@@ -16,7 +16,7 @@ function ProjectTwoColumnsPage({
     return (
         <>
             <Head>
-                <title>Projects Two Columns - OxyBuild</title>
+                <title>Projects Two Columns - BuiltView</title>
                 <meta name="description" content="Projects Two Columns" />
             </Head>
             <Breadcrumb

@@ -29,7 +29,6 @@ function ProjectSliderTwo({ projects, settings }) {
     };
     return (
         <Container>
-            {console.log('test from the component itself: ', projects)}
             <div className="project-slider py-140">
                 <div className="project-navigation">
                     <div className="project-button-next button-next">

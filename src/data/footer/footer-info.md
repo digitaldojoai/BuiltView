@@ -16,7 +16,7 @@ informationList:
             path: 'clients',
         },
         { id: 'informationList-04', title: 'Pricing', path: 'pricing' },
-        { id: 'informationList-05', title: 'FAQs', path: 'faqs' },
+        { id: 'informationList-05', title: 'FAQs', path: 'faq' },
         { id: 'informationList-06', title: 'Contact us', path: 'contact' },
     ]
 quickLinkTitle: 'Quick Links'

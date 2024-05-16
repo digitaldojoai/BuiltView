@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import classes from './banner-4.module.scss';
 
 function BannerFourFour({ bannerFourFourItems, bannerSection }) {
-    // console.log('testing: ', bannerFourFourItems);
     return (
         <div className={`${classes.py__140}`}>
             <Container>
@@ -28,7 +27,6 @@ function BannerFourFour({ bannerFourFourItems, bannerSection }) {
                     </div>
                 ))}
                 <Row className="g-30  ">
-                    {/* {console.log('lenth of data: ', bannerFourFourItems.length)} */}
                     {bannerFourFourItems?.map((bannerFourFourItem) => (
                         <Col
                             xl={{ span: 4 }}
@@ -36,10 +34,6 @@ function BannerFourFour({ bannerFourFourItems, bannerSection }) {
                             md={{ span: 8 }}
                             key={bannerFourFourItem.id}
                         >
-                            {console.log(
-                                'testingg: 0',
-                                bannerFourFourItem.dynamicClassName
-                            )}
                             <div
                                 className={`${bannerFourFourItem.dynamicClassName
                                     .split(' ')

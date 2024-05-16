@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: OxyBuild - Construction React Next JS Template
+    Template Name: BuiltView - Construction React Next JS Template
     Version: 1.0.0
 -----------------------------------------------------------------------------------
     
@@ -31,8 +31,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    flex-direction: column
-    ;
+    flex-direction: column;
     margin-top: 100px;
 }
 // desktop
@@ -49,19 +48,17 @@
     left: 50%;
     font-size: 35px;
     transform: translate(-50%, -50%);
-    color:$primary;
+    color: $primary;
     z-index: 1;
-    
 }
 
-.play{
+.play {
     display: none;
 }
 
-.title-video-main{
+.title-video-main {
     font-size: 60px !important;
 }
-
 
 // mobile
 @media (max-width: 768px) {
@@ -72,57 +69,57 @@
         width: 100%;
         height: 100%;
     }
-    
-    .title-video-main{
+
+    .title-video-main {
         font-size: 40px !important;
     }
 }
 
 //section styling in features
-.section-single-main{
+.section-single-main {
     min-height: 400px;
-
 }
 
 //newsletter component styling:
-.margin-for-newsletter{
+.margin-for-newsletter {
     margin-top: 150px;
     // background-color: $primary;
 }
 
 //foooter styling
-.row-class-footer{
+.row-class-footer {
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    align-items:center
+    align-items: center;
 }
 
-
 //banners in features page
-.container-banners-features{
+.container-banners-features {
     margin-top: 150px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     flex-direction: column;
-
 }
 
 // client detais page
-.client-details-banner{
+.client-details-banner {
     min-height: 150px;
-    padding-top: 60px;;
+    padding-top: 60px;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.294);
 }
 
 //style for t he pricing table component
-.side-price-table{
+.side-price-table {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-top: 5px solid $primary !important;
 }
 
-.middle-price-table{
+.css-1d1ry76 {
+    margin-top: 100px;
+}
+.middle-price-table {
     background-color: $secondary;
     color: white;
     height: 120%;
@@ -131,49 +128,47 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 21px 29px 0px;
 }
 
-// .chakra-stack{ 
+// .chakra-stack{
 //     display: flex !important;
 //     border: 2px solid blue;
 //     gap:20px !important;
 //     background-color: yellow !important;
- 
+
 // }
 
-.css-1d9lca0{
+.css-1d9lca0 {
     display: flex !important;
     min-height: 400px;
 }
 
 @media (max-width: 768px) {
-    .css-1d9lca0{
+    .css-1d9lca0 {
         align-self: center !important;
         flex-direction: column;
         width: 70%;
         gap: 30px;
     }
-    .middle-price-table{
+    .middle-price-table {
         margin: auto;
         height: 100% !important;
     }
-    .css-1d1ry76{
+    .css-1d1ry76 {
         display: flex !important;
         flex-direction: column;
         align-items: center;
         gap: 10px !important;
-    
     }
-    .side-price-table{
+    .side-price-table {
         height: 400px !important
         ;
     }
 
-    .title-for-procore{
+    .title-for-procore {
         font-size: 45px !important;
     }
-    
 }
 
-.button-bg-pricing{
+.button-bg-pricing {
     padding: 8px;
     padding-right: 25px;
     padding-left: 25px;
@@ -187,7 +182,7 @@
     }
 }
 //side buttons
-.button-bg-pricing-sides{
+.button-bg-pricing-sides {
     padding: 8px;
     padding-right: 25px;
     padding-left: 25px;
@@ -202,18 +197,18 @@
 }
 
 //styling for the card elements (pricing card)
-.price-text-style{
+.price-text-style {
     font-size: 60px;
     font-weight: 700;
 }
 //spaces between the info and the checklist icon
-.css-0{
+.css-0 {
     display: flex;
     align-items: center;
-    gap:3px
+    gap: 3px;
 }
 //styling for the container below the pricing table (procore )
-.Container-procore-main{
+.Container-procore-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,50 +222,47 @@
     border-right: 20px solid $primary;
 }
 
-.span-size-for-procore{
+.span-size-for-procore {
     font-size: 15px;
 }
-.margin-for-contact-btn{
+.margin-for-contact-btn {
     margin-top: 20px;
 }
 
-.overeall-container-procore-main{
+.overeall-container-procore-main {
     display: flex;
     flex-direction: column;
     margin-top: 150px;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.title-for-procore{
+.title-for-procore {
     font-size: 60px;
 }
 
 //styling accodion in faq page
-.accodion-main-component{
+.accodion-main-component {
     display: flex;
     flex-direction: column;
-    
 }
-.left-side-from-container{
+.left-side-from-container {
     width: 50%;
 }
-.overall-container-main-faq{
+.overall-container-main-faq {
     display: flex;
     justify-content: space-around;
     align-self: center !important;
     margin: 100px;
 }
 
-.chakra-accordion{
-}
+
 .chakra-accordion__item {
     width: 100%;
 }
-.chakra-accordion__button, .css-ubg1nw{
-    border:none !important ;
+.chakra-accordion__button,
+.css-ubg1nw {
+    border: none !important ;
     border-bottom: 0.5px solid rgba(60, 64, 148, 0.173) !important;
     height: 60px;
     background-color: $white;
@@ -279,18 +271,16 @@
     align-items: center !important;
     font-weight: 900;
 }
-.accordion-faq-component-title{
+.accordion-faq-component-title {
     font-size: 50px;
     font-weight: 900;
 }
 
-.subtitle-accordion-main{
+.subtitle-accordion-main {
     font-size: 20px;
     font-weight: 500;
-
-
 }
-.sidebar-in-faq-page{
+.sidebar-in-faq-page {
     background-color: $secondary;
     height: 450px !important;
     width: 30%;
@@ -299,32 +289,28 @@
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
-.sidebar-in-faq-page p{
+.sidebar-in-faq-page p {
     color: white;
     font-size: 15px;
 }
-.sidebar-in-faq-page h2{
+.sidebar-in-faq-page h2 {
     color: white;
     font-size: 35px;
     font-weight: 900;
-    
 }
 // faq on mobile screen styling
 @media (max-width: 768px) {
-   
-    .overall-container-main-faq{
-        flex-direction: column;width: 100%;
-        margin: 0px ;
+    .overall-container-main-faq {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
         margin-top: 10%;
         align-items: center;
-      
     }
-    .left-side-from-container, .sidebar-in-faq-page{
-        width:90%;
+    .left-side-from-container,
+    .sidebar-in-faq-page {
+        width: 90%;
     }
-    
 }
-

@@ -8,7 +8,6 @@ function BannerTwo({ bannerTwoItems }) {
         <div className={`${classes.bg} `}>
             <Container fluid className="px-0">
                 {bannerTwoItems?.map((bannerTwoItem) => (
-                    // console.log('inside the map banner: ', bannerTwoItem),
                     <Row className="g-0" key={bannerTwoItem.id}>
                         <Col lg={{ span: 6 }}>
                             <div className={classes.image}>

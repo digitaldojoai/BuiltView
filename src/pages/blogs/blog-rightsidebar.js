@@ -19,7 +19,7 @@ function BlogLeftSidebarPage({
     return (
         <>
             <Head>
-                <title>Blogs RightSidebar - OxyBuild</title>
+                <title>Blogs RightSidebar - BuiltView</title>
                 <meta name="description" content="All Blogs" />
             </Head>
             <Breadcrumb

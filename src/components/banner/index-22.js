@@ -7,10 +7,7 @@ function BannerTwoTwo({ bannerTwoTwoItems }) {
     return (
         <div className={classes.bg}>
             <Container fluid className="px-0">
-                {/* {console.log('banner info: ',bannerTwoTwoItems )} */}
-
                 {bannerTwoTwoItems.map((bannerTwoItem) => (
-                    // console.log('inside the map: ', bannerTwoItem)
                     <Row className="g-0" key={bannerTwoItem.id}>
                         <Col lg={{ span: 6 }}>
                             <div className={classes.with__sticker}>

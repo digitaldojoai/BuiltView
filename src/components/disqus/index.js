@@ -2,12 +2,12 @@ import { DiscussionEmbed } from 'disqus-react';
 import classes from './index.module.scss';
 
 function DisqusForm() {
-    const disqusShortname = 'Oxybuild';
+    const disqusShortname = 'BuiltView';
 
     const disqusConfig = {
-        url: 'https://oxybuild.disqus.com/',
+        url: 'https://BuiltView.disqus.com/',
         identifier: '123',
-        title: 'oxybuild-post',
+        title: 'BuiltView-post',
     };
     return (
         <div className={classes.area}>

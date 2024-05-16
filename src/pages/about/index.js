@@ -26,10 +26,10 @@ function AboutPage({
     return (
         <>
             <Head>
-                <title>About Us - Oxybuild</title>
+                <title>About Us - BuiltView</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
                 />
             </Head>
             <Breadcrumb
