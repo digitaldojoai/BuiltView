@@ -12,7 +12,7 @@ function BannerFive({ bannerTwoItems }) {
                         <Col lg={{ span: 6 }}>
                             <div className={classes.image}>
                                 <img
-                                    src={bannerTwoItem?.image}
+                                    src="/images/hero/faq.jpeg"
                                     alt={bannerTwoItem?.alt}
                                     className="img-full"
                                 />
