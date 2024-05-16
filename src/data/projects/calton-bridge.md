@@ -1,7 +1,7 @@
 ---
 title: 'Calton Bridge'
 image: 'calton-bridge.jpeg'
-subTitle: 'CONSTRUCTION'
+subTitle: ''
 duration: 'Duration: 24 month'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
@@ -19,4 +19,18 @@ Area: 'North'
 Budget: $1000
 Architect: Modern
 Duration: 2 months
+
+projects: 
+  - title: 'Project1'
+    image: /images/project-01.jpg
+    duration: '2 months'
+    slug: 'project1'
+  - title: 'Project2'
+    image: /images/project-02.jpg
+    duration: '2 months'
+    slug: 'project2'
+  - title: 'Project3'
+    image: /images/project-03.jpg
+    duration: '2 months'
+    slug: 'project3'
 ---

@@ -5,6 +5,7 @@
     position: relative;
 }
 .top {
+   
     background-color: $primary;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -105,7 +106,7 @@
                 }
             }
             &.separator {
-                padding-right: 35px;
+                padding-right: 5%;
                 a {
                     span {
                         background-image: url(../../../public/images/header/icon/separator.png);
@@ -152,36 +153,23 @@
 .fixed {
     &__logo {
         background-color: rgb(255, 255, 255);
-        width: 28%;
+        width: 8%;
         height: 100%;
         position: absolute;
-
         top: 0px;
-        left: -10px;
         display: flex !important;
         align-items: center;
         justify-content: center;
         -webkit-box-align: center;
         align-items: center;
-        @include breakpoint(xxl-device) {
-            width: 17%;
-        }
-        @include breakpoint(max-xl-device) {
-            width: 17%;
-        }
+        
         .logo {
-            margin: auto 90px auto auto;
             display: block !important;
             width: calc(100% - 70%);
             margin: 0 auto;
-            @include breakpoint(xxl-device) {
-                width: calc(100% - 60px);
+                width: calc(100%);
                 margin: 0 auto;
-            }
-            @include breakpoint(max-xl-device) {
-                width: calc(100% - 60px);
-                margin: 0 auto;
-            }
+            
         }
     }
 }
@@ -240,6 +228,7 @@
 
 @media (max-width: 992px) {
     .top {
+        display: flex !important;
         background-color: $white;
     }
     .offcanvas__btn,
@@ -256,5 +245,12 @@
         &__logo {
             display: none !important;
         }
+    }
+}
+
+
+@media (min-width: 992px){
+    .top{
+        display: none;
     }
 }

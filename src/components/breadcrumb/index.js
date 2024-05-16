@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 function Breadcrumb({ subTitle, title, desc, bg }) {
     const style = {
-        backgroundImage: `url(${bg || '/images/hero/contact.jpg'})`,
+        backgroundImage: `url(${bg || '/images/hero/faq.jpg'})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover',

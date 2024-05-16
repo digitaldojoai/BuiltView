@@ -20,7 +20,7 @@ function Error404Page({ newsletterItems, footerItems }) {
                 subTitle="Not Found"
                 title="404"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
-                bg="/images/hero/about.jpeg"
+                bg="/images/hero/faq.jpg"
             />
             <Error404 />
             <Newsletter newsletterItems={newsletterItems} />

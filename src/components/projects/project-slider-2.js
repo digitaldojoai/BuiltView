@@ -27,6 +27,7 @@ function ProjectSliderTwo({ projects, settings }) {
             },
         },
     };
+
     return (
         <Container>
             <div className="project-slider py-140">
@@ -40,11 +41,12 @@ function ProjectSliderTwo({ projects, settings }) {
                 </div>
                 <div>
                     <SwiperComps settings={settings}>
-                        {projects.map((project) => (
-                            <Slide key={project.slug}>
-                                <ProjectSliderItem project={project} />
-                            </Slide>
-                        ))}
+                        {Array.isArray(projects.projects) &&
+                            projects.projects.map((project) => (
+                                <Slide key={project.slug}>
+                                    <ProjectSliderItem project={project} />
+                                </Slide>
+                            ))}
                     </SwiperComps>
                 </div>
             </div>

@@ -4,8 +4,9 @@ import Link from 'next/link';
 function ProjectSliderItem({ project }) {
     // const { title, subTitle, duration, image, slug } = props.project;
 
-    const imagePath = `/images/projects/${project?.slug}/${project?.image}`;
+    const imagePath = `${project?.image}`;
     const linkPath = `/projects/${project?.slug}`;
+  
 
     return (
         <div className="project-item">
@@ -17,7 +18,7 @@ function ProjectSliderItem({ project }) {
                 <h3 className="title mb-0">
                     <Link href={linkPath}>{project?.title}</Link>
                 </h3>
-                <span>{project?.duration}</span>
+                <span>Duration: {project?.duration}</span>
             </div>
         </div>
     );

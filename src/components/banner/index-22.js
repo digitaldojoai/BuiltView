@@ -27,7 +27,7 @@ function BannerTwoTwo({ bannerTwoTwoItems }) {
                         <Col lg={{ span: 6 }}>
                             <div className={classes.image}>
                                 <img
-                                    src={bannerTwoItem?.image}
+                                    src="images/hero/clients.jpg"
                                     alt={bannerTwoItem?.alt}
                                     className="img-full"
                                 />

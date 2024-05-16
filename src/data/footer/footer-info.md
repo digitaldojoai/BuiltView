@@ -1,6 +1,6 @@
 ---
 id: 'footer-01'
-footerLogo: '/images/logo/white.png'
+footerLogo: '/images/logo.png'
 footerLogoAlt: 'Footer Logo'
 excerpt: 'Construction of itself, because it is are  <br/> but because some proper style design is occur in toil and pain pleasure'
 inquary: 'For inquary'

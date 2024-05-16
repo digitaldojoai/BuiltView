@@ -40,7 +40,7 @@ function ServicePage({
             <Breadcrumb
                 subTitle="What we offer"
                 title="Our Features"
-                bg="/images/hero/about.jpeg"
+                bg="/images/hero/faq.jpg"
             />
             {/* <AboutTwo aboutItemsTwo={aboutItemsTwo} />
             <AllServices

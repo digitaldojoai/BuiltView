@@ -32,7 +32,7 @@ function ProjectDetail({
                         projectsSidebar={projectsSidebar}
                     />
                 </Row>
-                <ProjectSliderTwo projects={projects} />
+                <ProjectSliderTwo projects={project} />
             </Container>
         </div>
     );

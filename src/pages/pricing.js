@@ -21,7 +21,12 @@ function ProjectFullwidthPage({
                 <title>Projects FullWidth - BuiltView</title>
                 <meta name="description" content="Projects FullWidth" />
             </Head>
-            <Breadcrumb subTitle="Pricing" title="Our Pricing Tables" desc="" bg='/images/hero/pricing.jpg' />
+            <Breadcrumb
+                subTitle="Pricing"
+                title="Our Pricing Tables"
+                desc=""
+                bg="/images/hero/faq.jpg"
+            />
             <Pricing />
 
             <Procore />

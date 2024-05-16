@@ -1,5 +1,7 @@
 import { Container } from 'react-bootstrap';
 import Head from 'next/head';
+import matter from 'gray-matter';
+import yaml from 'js-yaml';
 import PropTypes from 'prop-types';
 import BannerFive from '../../components/banner/index-5';
 import Breadcrumb from '../../components/breadcrumb';
@@ -18,6 +20,7 @@ function ProjectDetailPage({
     newsletterItems,
     footerItems,
 }) {
+
     return (
         <>
             <Head>

@@ -232,34 +232,13 @@ function Header() {
                                         </li>
                                         <li className={classes.separator} />
 
-                                        <li
-                                            className={`${
-                                                search
-                                                    ? 'search-show'
-                                                    : 'search-hide'
-                                            }`}
-                                        >
-                                            <buton
-                                                className={classes.search__btn}
-                                                onClick={SearchToggle}
-                                            >
-                                                <FaSearch />
-                                            </buton>
-                                            <form className="search-form">
-                                                <input
-                                                    className="search-input"
-                                                    type="search"
-                                                    name="search"
-                                                    placeholder="Search"
-                                                />
-                                                <button
-                                                    className="search-inner__btn"
-                                                    type="submit"
-                                                >
-                                                    {}
-                                                    <FaSearch />
-                                                </button>
-                                            </form>
+                                        <li className={classes.dropdown_holder}>
+                                            <Link href="/login">Login</Link>
+                                        </li>
+                                        <li className={classes.dropdown_holder}>
+                                            <Link href="register">
+                                                / Register
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>

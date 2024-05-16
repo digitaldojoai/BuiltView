@@ -22,7 +22,7 @@ function ProjectTwoColumnsPage({
             <Breadcrumb
                 subTitle="Our Clients"
                 title="We Provide the Best Tool for our Clients"
-                bg='/images/hero/clients.jpg'
+                bg="/images/hero/faq.jpg"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
             />
             <ProjectTwoColumns projects={projects} />

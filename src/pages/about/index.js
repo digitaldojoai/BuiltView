@@ -36,7 +36,7 @@ function AboutPage({
                 subTitle="What we do"
                 title="About us"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
-                bg="/images/hero/about.jpeg"
+                bg="/images/hero/faq.jpg"
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerThree bannerThreeItems={bannerThreeItems} />

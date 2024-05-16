@@ -3,7 +3,7 @@
 @import '../../styles/components/button';
 
 .bg {
-    background-image: url('/images/newsletter/bg/1-1-1920x198.png');
+    background-color: $primary;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -57,7 +57,7 @@
     .input {
         &_field {
             background-color: transparent;
-            border: 1px solid #0CB9EB;
+            border: 1px solid #ffffff;
             font-family: $yantramanav;
             color: $white;
             opacity: 0.9;
