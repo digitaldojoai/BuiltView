@@ -169,7 +169,13 @@ export default function Faq() {
                     style={{ fontWeight: '900' }}
                 >
                     Book now{' '}
-                    <span style={{ fontWeight: 'bold', fontSize: '30px', marginBottom:'5px' }}>
+                    <span
+                        style={{
+                            fontWeight: 'bold',
+                            fontSize: '30px',
+                            marginBottom: '5px',
+                        }}
+                    >
                         &rarr;
                     </span>
                 </Link>

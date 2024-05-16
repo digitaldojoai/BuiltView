@@ -11,9 +11,11 @@ function BannerFour({ bannerFourItems, bannerSection }) {
                         <div className={classes.section__wrap}>
                             <div className={classes.section__title}>
                                 <span>{items?.sectionSubtitle}</span>
-                                <h2  dangerouslySetInnerHTML={{
-                                    __html: items.sectionTitle,
-                                }}/>
+                                <h2
+                                    dangerouslySetInnerHTML={{
+                                        __html: items.sectionTitle,
+                                    }}
+                                />
                             </div>
                             <p
                                 className={classes.section__desc}
@@ -36,7 +38,7 @@ function BannerFour({ bannerFourItems, bannerSection }) {
                                 className={`${bannerFourItem.dynamicClassName
                                     .split(' ')
                                     .map((item) => classes[item])
-                                    .join(' ')} section-single-main`} 
+                                    .join(' ')} section-single-main`}
                             >
                                 <div
                                     className={classes.content}

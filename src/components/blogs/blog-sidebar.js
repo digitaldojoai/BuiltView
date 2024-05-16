@@ -47,6 +47,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                         </h2>
                         <form className={classes.sidebar_form}>
                             <input
+                                id="search"
                                 className={classes.searchbox_input}
                                 type="search"
                                 name="search"
@@ -56,6 +57,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                                 type="button"
                                 className={classes.searchbox_btn}
                             >
+                                {}
                                 <IoSearchOutline />
                             </button>
                         </form>
