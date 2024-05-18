@@ -8,6 +8,7 @@
     overflow: hidden;
 }
 
+
 .area {
     display: flex;
     align-self: center;
@@ -232,3 +233,11 @@
 }
 
 // styling the ,main component (container)
+
+@media (min-width: 1920px){
+    .registerContainer{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+     }
+}

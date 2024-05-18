@@ -5,7 +5,7 @@ import classes from './index.module.scss';
 
 function Register() {
     return (
-        <div className={classes.parent}>
+        <div className={`${classes.parent}`}>
             <div className={classes.area}>
                 <Row className={classes.container}>
                     <Col lg={{ span: 5 }}>
@@ -16,7 +16,7 @@ function Register() {
                         />
                     </Col>
                     <Col lg={{ span: 6 }}>
-                        <form className={`${classes.form}`}>
+                        <form className={`${classes.form}  ${classes.registerContainer}`}>
                             <h2 className={classes.title}>Sign Up</h2>
                             <span className={classes.subtitle}>
                                 Enter all the information below to start your
