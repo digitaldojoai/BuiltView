@@ -20,7 +20,8 @@ function ContactPage({ contactItems, newsletterItems, footerItems }) {
                 subTitle="Contact us"
                 title="Get in Touch"
                 desc=""
-                bg="/images/hero/contact.jpg"
+                bg="/images/hero/contact.jpeg"
+                white="white"
             />
             <Contact contactItems={contactItems} />
             <Newsletter newsletterItems={newsletterItems} />

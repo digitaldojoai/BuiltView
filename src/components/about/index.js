@@ -31,6 +31,7 @@ function AboutOne({ aboutItems }) {
                                         <img
                                             src={aboutItem?.pattern}
                                             alt={aboutItem?.patternAlt}
+                                            
                                         />
                                     </div>
                                     <div className={classes.img}>

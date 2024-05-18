@@ -1,6 +1,6 @@
 ---
 title: 'Haven Valley'
-image: 'haven-valley.jpeg'
+image: logo3.jpeg
 slug: haven-valley
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'

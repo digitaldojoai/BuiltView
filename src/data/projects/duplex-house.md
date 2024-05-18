@@ -1,7 +1,7 @@
 ---
 title: 'Duplex House'
-image: duplex-house.jpeg
-slug: 'duplex-house
+image: logo2.jpeg
+slug: duplex-house
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'

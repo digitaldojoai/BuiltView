@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Col } from 'react-bootstrap';
 
 function ProjectFullwidthItem({ project }) {
-    const imagePath = `/images/projects/${project?.slug}/${project?.image}`;
+    const imagePath = `/images/projects/${project?.image}`;
     const linkPath = `/projects/${project?.slug}`;
 
     return (

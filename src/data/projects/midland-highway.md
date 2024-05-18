@@ -1,6 +1,6 @@
 ---
 title: 'Midland Highway'
-image: 'midland-highway.jpeg'
+image: logo4.jpeg
 slug: midland-highway
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'

@@ -213,27 +213,12 @@ function Header() {
                                             <Link href="/contact">
                                                 <span>Contact us</span>
                                             </Link>
-                                            {/* <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/blogs/blog-leftsidebar">
-                                                        Blog Left Sidebar
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/blog-rightsidebar">
-                                                        Blog Right Sidebar
-                                                    </Link>
-                                                </li>
-                                            </ul> */}
+                                          
                                         </li>
                                         <li className={classes.separator} />
 
                                         <li className={classes.dropdown_holder}>
-                                            <Link href="/login">Login</Link>
+                                            <Link href="/login">Login </Link>
                                         </li>
                                         <li className={classes.dropdown_holder}>
                                             <Link href="register">

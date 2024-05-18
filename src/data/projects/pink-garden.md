@@ -1,6 +1,6 @@
 ---
 title: 'Pink Garden'
-image: 'pink-garden.jpeg'
+image: logo4.jpeg
 slug: pink-garden
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'

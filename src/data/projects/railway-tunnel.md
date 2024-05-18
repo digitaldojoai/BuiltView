@@ -1,6 +1,6 @@
 ---
 title: 'Railway Tunnel'
-image: 'railway-tunnel.jpeg'
+image: logo2.jpeg
 slug: railway-tunnel
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'

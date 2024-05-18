@@ -1,6 +1,6 @@
 ---
 title: 'Parle Palace'
-image: 'parle-palace.jpeg'
+image: logo7.jpeg
 slug: parle-palace
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'

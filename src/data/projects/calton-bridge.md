@@ -1,6 +1,6 @@
 ---
 title: 'Calton Bridge'
-image: calton-bridge.jpeg
+image: logo1.jpeg
 slug: calton-bridge
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
