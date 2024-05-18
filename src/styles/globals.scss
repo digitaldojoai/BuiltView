@@ -26,27 +26,26 @@
 @import '~bootstrap/scss/grid';
 .video-container {
     position: relative;
-    width: 100%;
     height: 700px; /* Set this to whatever height you want */
     overflow: hidden;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 // desktop
 .video-container video {
-    width: 100%;
-    height: 80%;
+    width: 100vw;
 }
 
 .play-button {
     position: absolute;
     background-color: $gray-100;
-    padding: 5px;
-    top: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    top: 50%;
     left: 50%;
-    font-size: 35px;
+    font-size: 45px;
     transform: translate(-50%, -50%);
     color: $primary;
     z-index: 1;
@@ -57,7 +56,11 @@
 }
 
 .title-video-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 60px !important;
+    margin-top: 100px;
 }
 
 // mobile
@@ -102,7 +105,7 @@
     flex-direction: column;
 }
 
-// client detais page
+// client details page
 .client-details-banner {
     min-height: 150px;
     padding-top: 60px;
@@ -114,8 +117,19 @@
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-top: 5px solid $primary !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
+.list-of-services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+
+}
 .css-1d1ry76 {
     margin-top: 100px;
 }
@@ -128,19 +142,19 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 21px 29px 0px;
 }
 
-// .chakra-stack{
-//     display: flex !important;
-//     border: 2px solid blue;
-//     gap:20px !important;
-//     background-color: yellow !important;
-
-// }
+.price-card-title{
+    margin-top: 20px;
+}
 
 .css-1d9lca0 {
     display: flex !important;
     min-height: 400px;
 }
-
+.project-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
 @media (max-width: 768px) {
     .css-1d9lca0 {
         align-self: center !important;
@@ -314,3 +328,4 @@
         width: 90%;
     }
 }
+

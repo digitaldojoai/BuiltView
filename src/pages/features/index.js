@@ -60,7 +60,7 @@ function ServicePage({
                 bannerFourFourItems={bannerFourFourItems}
                 bannerSection={bannerSection}
             />
-            ;
+            ;<h2 className="title-video-main align-self-center">Our Product</h2>
             <VideoComponent />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />

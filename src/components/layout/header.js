@@ -250,8 +250,7 @@ function Header() {
                             <img
                                 src="/images/logo.svg"
                                 alt="Header Dark Logo"
-                                width={170}
-                                height={150}
+                                width='110%'
                             />
                         </Link>
                     </div>

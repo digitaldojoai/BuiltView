@@ -25,10 +25,10 @@ function ProjectDetail({
                     <ProjectSidebar
                         clientName={project.clientName}
                         location={project.location}
-                        area={project.Area}
+                        projectsInfo={project.projectsDone}
                         budget={project.Budget}
                         architect={project.Architect}
-                        druration={project.Duration}
+                        duration={project.Duration}
                         projectsSidebar={projectsSidebar}
                     />
                 </Row>

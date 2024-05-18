@@ -1,8 +1,9 @@
 ---
 title: 'Railway Tunnel'
 image: 'railway-tunnel.jpeg'
+slug: railway-tunnel
 subTitle: ''
-duration: 'Duration: 36 month'
+dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
 groupImageTwo: '/images/project-detail/1-2-222x245.jpg'
@@ -15,8 +16,22 @@ isFeatured: true
 
 clientName: 'John'
 location: 'USA'
-Area: 'North'
-Budget: $1000
-Architect: Modern
+ProjectsDone: 200
+Budget: $400,000
+Architect: Andrew Design Agency
 Duration: 2 months
+
+projects: 
+  - title: 'Project1'
+    image: /images/project-01.jpg
+    duration: '2 months'
+    slug: 'project1'
+  - title: 'Project2'
+    image: /images/project-02.jpg
+    duration: '2 months'
+    slug: 'project2'
+  - title: 'Project3'
+    image: /images/project-03.jpg
+    duration: '2 months'
+    slug: 'project3'
 ---

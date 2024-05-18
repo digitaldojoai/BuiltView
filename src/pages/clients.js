@@ -21,12 +21,12 @@ function ProjectTwoColumnsPage({
             </Head>
             <Breadcrumb
                 subTitle="Our Clients"
-                title="We Provide the Best Tool for our Clients"
+                title="We Provide the Best "
+                under="Tool for our Clients"
                 bg="/images/hero/faq.jpg"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
             />
             <ProjectTwoColumns projects={projects} />
-            <BannerFive bannerTwoItems={bannerTwoItems} />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>

@@ -6,7 +6,6 @@ function ProjectSliderItem({ project }) {
 
     const imagePath = `${project?.image}`;
     const linkPath = `/projects/${project?.slug}`;
-  
 
     return (
         <div className="project-item">

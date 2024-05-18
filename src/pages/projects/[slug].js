@@ -20,7 +20,6 @@ function ProjectDetailPage({
     newsletterItems,
     footerItems,
 }) {
-
     return (
         <>
             <Head>
@@ -30,15 +29,6 @@ function ProjectDetailPage({
                     content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
                 />
             </Head>
-            <div className="client-details-banner">
-                <Container>
-                    <div className="page_content">
-                        {/* <span className="page_subtitle">subtitle</span> */}
-                        <h1 className="page_title">title</h1>
-                        <p className="page_desc">desc</p>
-                    </div>
-                </Container>
-            </div>
             <ProjectDetail
                 project={project}
                 projectsSidebar={projectsSidebar}
@@ -46,7 +36,6 @@ function ProjectDetailPage({
                 projects={projects}
                 projectsOverview={projectsOverview}
             />
-            <BannerFive bannerTwoItems={bannerTwoItems} />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>

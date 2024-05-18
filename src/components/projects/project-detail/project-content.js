@@ -18,7 +18,7 @@ function ProjectContent({ project, projects, richTexts, projectsOverview }) {
 
                 <p className={classes.summery_desc}>{project?.summeryDesc}</p>
             </div>
-            <RichText richTexts={richTexts} />
+            <RichText richTexts={richTexts} project={project} />
         </Col>
     );
 }

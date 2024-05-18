@@ -17,7 +17,7 @@ function ProjectFullwidthItem({ project }) {
                     <h3 className="title mb-0">
                         <Link href={linkPath}>{project?.title}</Link>
                     </h3>
-                    <span>{project?.duration}</span>
+                    <span>{project?.dummyText}</span>
                 </div>
             </div>
         </Col>

@@ -10,7 +10,7 @@ function BannerTwoTwo({ bannerTwoTwoItems }) {
                 {bannerTwoTwoItems.map((bannerTwoItem) => (
                     <Row className="g-0" key={bannerTwoItem.id}>
                         <Col lg={{ span: 6 }}>
-                            <div className={classes.with__sticker}>
+                            <div>
                                 <div className={classes.content}>
                                     <h2
                                         className={classes.title}

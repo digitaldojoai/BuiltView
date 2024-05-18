@@ -20,8 +20,12 @@ export default function ThreeTierPricing() {
     return (
         <Box py={12}>
             <VStack spacing={2} textAlign="center">
-                <Heading as="h1" fontSize="4xl">
-                    Plans that fit your need
+                <Heading
+                    as="h1"
+                    fontSize="4xl"
+                    style={{ marginBottom: '50px' }}
+                >
+                    Plans that fit your needs
                 </Heading>
             </VStack>
             <Stack
@@ -32,7 +36,7 @@ export default function ThreeTierPricing() {
                 py={10}
             >
                 <div className="side-price-table">
-                    <Box py={4} px={12} className="">
+                    <Box py={4} px={12} className="price-card-title">
                         <Text fontWeight="500" fontSize="2xl">
                             Basic Plan
                         </Text>
@@ -48,25 +52,38 @@ export default function ThreeTierPricing() {
                         py={4}
                         borderBottomRadius="xl"
                     >
-                        <List spacing={3} textAlign="start" px={20}>
+                        <List
+                            className="list-of-services"
+                            spacing={3}
+                            textAlign="center"
+                            px={20}
+                        >
                             <ListItem>
                                 <FaCheck />
-                                unlimited build minutes
+                                Task Tracking
                             </ListItem>
                             <ListItem>
                                 <FaCheck />
-                                Lorem, ipsum dolor.
+                                2D Rendering
                             </ListItem>
                             <ListItem>
                                 <FaCheck />
-                                5TB Lorem, ipsum dolor.
+                                Limited Customization
+                            </ListItem>
+                            <ListItem>
+                                <FaCheck />
+                                Basic Integration
+                            </ListItem>
+                            <ListItem>
+                                <FaCheck />
+                                Email Support
                             </ListItem>
                         </List>
                         <Link
                             href="#"
                             className={`${classes.link__btn} button-bg-pricing-sides`}
                         >
-                            Start trial
+                            Buy Now
                         </Link>
                     </VStack>
                 </div>
@@ -79,7 +96,7 @@ export default function ThreeTierPricing() {
                             left="50%"
                             style={{ transform: 'translate(-50%)' }}
                         />
-                        <Box py={4} px={12}>
+                        <Box py={4} px={12} className="price-card-title">
                             <Text fontWeight="500" fontSize="2xl">
                                 Premium Plan{' '}
                             </Text>
@@ -95,40 +112,44 @@ export default function ThreeTierPricing() {
                             py={4}
                             borderBottomRadius="xl"
                         >
-                            <List spacing={3} textAlign="start" px={20}>
+                            <List
+                                className="list-of-services"
+                                spacing={3}
+                                textAlign="center"
+                                px={20}
+                            >
                                 <ListItem>
                                     <FaCheck />
-                                    unlimited build minutes
+                                    Task Tracking
                                 </ListItem>
                                 <ListItem>
                                     <FaCheck />
-                                    Lorem, ipsum dolor.
+                                    2D Rendering
                                 </ListItem>
                                 <ListItem>
                                     <FaCheck />
-                                    5TB Lorem, ipsum dolor.
+                                    Full Customization
                                 </ListItem>
                                 <ListItem>
                                     <FaCheck />
-                                    5TB Lorem, ipsum dolor.
+                                    Pro Integration
                                 </ListItem>
                                 <ListItem>
                                     <FaCheck />
-                                    5TB Lorem, ipsum dolor.
+                                    Priority Email & Phone Support
                                 </ListItem>
                             </List>
-
                             <Link
                                 href="#"
                                 className={`${classes.link__btn} button-bg-pricing`}
                             >
-                                Start trial
+                                Buy Now
                             </Link>
                         </VStack>
                     </Box>
                 </div>
                 <div className="side-price-table">
-                    <Box py={4} px={12}>
+                    <Box py={4} px={12} className="price-card-title">
                         <Text fontWeight="500" fontSize="2xl">
                             Standard Plan
                         </Text>
@@ -143,25 +164,38 @@ export default function ThreeTierPricing() {
                         py={4}
                         borderBottomRadius="xl"
                     >
-                        <List spacing={3} textAlign="start" px={20}>
+                        <List
+                            className="list-of-services"
+                            spacing={3}
+                            textAlign="center"
+                            px={20}
+                        >
                             <ListItem>
                                 <FaCheck />
-                                unlimited build minutes
+                                Task Tracking
                             </ListItem>
                             <ListItem>
                                 <FaCheck />
-                                Lorem, ipsum dolor.
+                                2D Rendering
                             </ListItem>
                             <ListItem>
                                 <FaCheck />
-                                5TB Lorem, ipsum dolor.
+                                Enhanced Customization
+                            </ListItem>
+                            <ListItem>
+                                <FaCheck />
+                                Advanced Integration
+                            </ListItem>
+                            <ListItem>
+                                <FaCheck />
+                                Email & Phone Support
                             </ListItem>
                         </List>
                         <Link
                             href="#"
                             className={`${classes.link__btn} button-bg-pricing-sides`}
                         >
-                            Start trial
+                            Buy Now
                         </Link>
                     </VStack>
                 </div>

@@ -49,6 +49,7 @@ function HomePage({
                 />
             </Head>
             <Hero heroItems={heroItems} />
+            <h2 className="title-video-main align-self-center">Our Product</h2>
             <VideoComponent />
             {/* <BannerOne bannerItems={bannerItems} /> */}
             <AboutOne aboutItems={aboutItems} />
@@ -60,19 +61,7 @@ function HomePage({
                 projects={projects}
                 projectSectionItems={projectSectionItems}
             />
-            {/* <BrandOne brandItems={brandItems} /> */}
-            {/* <HomePageServices
-                services={services}
-                serviceSectionItems={serviceSectionItems}
-            /> */}
-            {/* <BannerTwo bannerTwoItems={bannerTwoItems} />
-            <Counter />
-            <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
-            <Testimonial
-                testimonialItems={testimonialItems}
-                testimonialSectionItems={testimonialSectionItems}
-            />
-            <LatestBlog blogs={blogs} blogSectionItems={blogSectionItems} /> */}
+
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>

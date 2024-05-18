@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
 import ProjectSliderTwo from '../projects/project-slider-2';
 
-function RichText({ richTexts }) {
+function RichText({ richTexts, project }) {
     return (
         <div className={classes.item}>
             {richTexts?.map((richText) => (
@@ -25,7 +25,7 @@ function RichText({ richTexts }) {
                         <div className={`${classes.group_image} pb-20`}>
                             <div className={classes.single_image}>
                                 <img
-                                    src={richText?.groupImageTwo}
+                                    src={`/images/projects/${project.slug}/${project?.image}`}
                                     alt={richText?.groupImageAlt}
                                 />
                             </div>
@@ -39,6 +39,7 @@ function RichText({ richTexts }) {
 
 RichText.propTypes = {
     richTexts: PropTypes.instanceOf(Object).isRequired,
+    project: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default RichText;

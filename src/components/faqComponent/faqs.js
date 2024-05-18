@@ -46,7 +46,8 @@ export default function Faq() {
                                                     : '#041242'
                                             }
                                         >
-                                            Section 2 title
+                                            Can I upgrade or downgrade my plan
+                                            at any time?
                                         </Box>
                                         {isExpanded ? (
                                             <MinusIcon
@@ -59,12 +60,11 @@ export default function Faq() {
                                     </AccordionButton>
                                 </h2>
                                 <AccordionPanel color="#4d4d4d" pb={4}>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    Flexibility is key! You have the freedom to
+                                    adjust your plan whenever you like, ensuring
+                                    that you always have the right features to
+                                    support your needs, whether they grow or
+                                    change over time.
                                 </AccordionPanel>
                             </>
                         )}
@@ -85,7 +85,7 @@ export default function Faq() {
                                                     : '#041242'
                                             }
                                         >
-                                            Section 2 title
+                                            Is there a free trial available?
                                         </Box>
                                         {isExpanded ? (
                                             <MinusIcon
@@ -103,12 +103,11 @@ export default function Faq() {
                                     color="#4d4d4d"
                                     pb={4}
                                 >
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    Dive right in! Experience our offerings
+                                    firsthand with our complimentary trial
+                                    period. It&apos;s the perfect opportunity to
+                                    explore our services and see how they can
+                                    benefit you before making any commitments.
                                 </AccordionPanel>
                             </>
                         )}
@@ -129,7 +128,7 @@ export default function Faq() {
                                                     : '#041242'
                                             }
                                         >
-                                            Section 2 title
+                                            Are there any setup fees?
                                         </Box>
                                         {isExpanded ? (
                                             <MinusIcon
@@ -142,13 +141,56 @@ export default function Faq() {
                                     </AccordionButton>
                                 </h2>
                                 <AccordionPanel color="#4d4d4d" pb={4}>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    No hidden costs here! When you sign up,
+                                    there are no additional fees for setup. You
+                                    can get started without worrying about any
+                                    unexpected expenses.
                                 </AccordionPanel>
+
+                                <AccordionItem>
+                                    {({ isExpanded }) => (
+                                        <>
+                                            <h2>
+                                                <AccordionButton>
+                                                    <Box
+                                                        as="span"
+                                                        flex="1"
+                                                        textAlign="left"
+                                                        color={
+                                                            isExpanded
+                                                                ? '#0CB9EB'
+                                                                : '#041242'
+                                                        }
+                                                    >
+                                                        Can I cancel my
+                                                        subscription at any
+                                                        time?
+                                                    </Box>
+                                                    {isExpanded ? (
+                                                        <MinusIcon
+                                                            fontSize="12px"
+                                                            color="#0CB9EB"
+                                                        />
+                                                    ) : (
+                                                        <AddIcon fontSize="12px" />
+                                                    )}
+                                                </AccordionButton>
+                                            </h2>
+                                            <AccordionPanel
+                                                color="#4d4d4d"
+                                                pb={4}
+                                            >
+                                                Your convenience is our
+                                                priority. You have the liberty
+                                                to cancel your subscription at
+                                                any point, giving you peace of
+                                                mind knowing that you&apos;re in
+                                                control of your commitment to
+                                                our services.
+                                            </AccordionPanel>
+                                        </>
+                                    )}
+                                </AccordionItem>
                             </>
                         )}
                     </AccordionItem>

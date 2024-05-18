@@ -28,7 +28,7 @@ function Procore() {
                     href="#"
                     className="margin-for-contact-btn button-bg-pricing"
                 >
-                    Start trial
+                    Contact Now
                 </Link>
             </div>
         </div>

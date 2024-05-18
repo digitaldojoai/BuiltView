@@ -121,6 +121,8 @@
 }
 .image {
     height: 102vh !important;
+    object-fit: cover;
+    width: 100%;
 }
 
 .span{
@@ -150,9 +152,11 @@
 }
 .OauthBtn{
     transition: $baseTransition;
-    padding: 20px;
+    padding: 10px 55px 10px 55px;
+    
     background-color: $white;
-    border: 1px solid #54525208;
+    
+    border: 1px solid #29292981;
     &:hover {
         background-color: rgba(202, 202, 202, 0.12);
         color: $white;

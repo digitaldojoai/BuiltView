@@ -153,7 +153,7 @@
 .fixed {
     &__logo {
         background-color: rgb(255, 255, 255);
-        width: 8%;
+        width: 10%;
         height: 100%;
         position: absolute;
         top: 0px;
@@ -164,11 +164,8 @@
         align-items: center;
         
         .logo {
-            display: block !important;
-            width: calc(100% - 70%);
-            margin: 0 auto;
-                width: calc(100%);
-                margin: 0 auto;
+
+            margin: 0 auto !important;
             
         }
     }

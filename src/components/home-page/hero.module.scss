@@ -11,9 +11,7 @@
         display: flex;
         color: white; //added new
         align-items: center;
-        @include breakpoint(max-xl-device) {
-            height: 610px;
-        }
+        min-height: 100vh;
         &-01 {
             background-image: url('/images/hero/home.jpg');
         }
@@ -59,7 +57,7 @@
             max-width: 100%;
         }
         span {
-            color: $primary;
+            color: $white;
         }
     }
 }

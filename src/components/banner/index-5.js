@@ -36,7 +36,7 @@ function BannerFive({ bannerTwoItems }) {
                                     <div className={classes.btn__wrap}>
                                         <Link
                                             href="/projects"
-                                            className={`me-20 ${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white}`}
+                                            className={`me-20 ${classes.btn} ${classes.btn_secondary} ${classes.btn_hover__white}`}
                                         >
                                             Learn More
                                         </Link>

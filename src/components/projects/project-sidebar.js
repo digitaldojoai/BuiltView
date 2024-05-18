@@ -6,10 +6,10 @@ import classes from './project.module.scss';
 function ProjectSidebar({
     clientName,
     location,
-    area,
+    projectsInfo,
     budget,
     architect,
-    druration,
+    duration,
 }) {
     return (
         <Col lg={{ span: 3 }}>
@@ -28,7 +28,7 @@ function ProjectSidebar({
                         </li>
 
                         <li>
-                            Area: <span className="text-primary">{area}</span>
+                            Projects Done: <span className="text-primary">{projectsInfo}</span>
                         </li>
 
                         <li>
@@ -41,8 +41,8 @@ function ProjectSidebar({
                             <span className="text-primary">{architect}</span>
                         </li>
                         <li>
-                            Druration:{' '}
-                            <span className="text-primary">{druration}</span>
+                            Duration:{' '}
+                            <span className="text-primary">{duration}</span>
                         </li>
                     </ul>
                 </div>
@@ -54,9 +54,9 @@ function ProjectSidebar({
 ProjectSidebar.propTypes = {
     clientName: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
-    area: PropTypes.string.isRequired,
+    projectsInfo: PropTypes.string.isRequired,
     budget: PropTypes.string.isRequired,
     architect: PropTypes.string.isRequired,
-    druration: PropTypes.string.isRequired,
+    duration: PropTypes.string.isRequired,
 };
 export default ProjectSidebar;
