@@ -213,9 +213,9 @@ export default function Faq() {
                     Book now{' '}
                     <span
                         style={{
-                            fontWeight: 'bold',
+                            fontWeight: '400',
                             fontSize: '30px',
-                            marginBottom: '5px',
+                            marginBottom: '5%',
                         }}
                     >
                         &rarr;

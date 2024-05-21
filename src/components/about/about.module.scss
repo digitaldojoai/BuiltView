@@ -33,23 +33,20 @@
         }
     }
     &__title {
-        position: relative;
-        @include breakpoint(min-lg-device) {
-            text-align: right;
-            padding-right: 30px;
-            margin-right: 30px;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
         span {
             text-transform: uppercase;
             font-weight: 700;
             color: $primary;
         }
         h2 {
-            max-width: 425px;
+            // max-width: 425px;
             font-size: 60px;
             line-height: 1;
             @include breakpoint(max-sm-device) {
-                font-size: 40px;
+                font-size: 35px;
             }
         }
         span {

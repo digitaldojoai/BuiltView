@@ -49,9 +49,11 @@ function HomePage({
                 />
             </Head>
             <Hero heroItems={heroItems} />
-            <h2 className="title-video-main align-self-center">Our Product</h2>
+            <h2 className="title-video-main align-self-center title-to-be-moved-up">
+                Our Product
+            </h2>
             <VideoComponent />
-            {/* <BannerOne bannerItems={bannerItems} /> */}
+
             <AboutOne aboutItems={aboutItems} />
             <BannerFour
                 bannerFourItems={bannerFourItems}

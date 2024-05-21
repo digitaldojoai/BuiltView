@@ -16,22 +16,22 @@ isFeatured: true
 
 clientName: 'John'
 location: 'USA'
-ProjectsDone: 200
+projectsDone: 200
 Budget: $400,000
 Architect: Andrew Design Agency
 Duration: 2 months
 
 projects: 
   - title: 'Project1'
-    image: /images/Project-01.jpg
+    image: /images/project-01.jpg
     duration: '2 months'
     slug: 'project1'
   - title: 'Project2'
-    image: /images/Project-02.jpg
+    image: /images/project-02.jpg
     duration: '2 months'
     slug: 'project2'
   - title: 'Project3'
-    image: /images/Project-03.jpg
+    image: /images/project-03.jpg
     duration: '2 months'
     slug: 'project3'
 ---

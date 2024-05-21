@@ -11,8 +11,8 @@ function LatestProject({ projects, projectSectionItems, settings }) {
         spaceBetween: 0,
         pagination: false,
         navigation: {
-            nextEl: '.project-button-next',
-            prevEl: '.project-button-prev',
+            nextEl: '.project-button-prev',
+            prevEl: '.project-button-next',
         },
         loop: false,
         breakpoints: {
@@ -34,11 +34,12 @@ function LatestProject({ projects, projectSectionItems, settings }) {
         <div>
             <div className={classes.bg}>
                 <div className={classes.btn__wrap}>
-                    <Link href="/projects" className={classes.btn}>
+                    <Link href="/clients" className={classes.btn}>
                         <span>View More</span>
                     </Link>
                 </div>
                 <Container fluid className="px-0">
+                    {console.log(projects[0].projects)}
                     <div className={classes.slider_with__section}>
                         <div className={classes.section_area}>
                             <div className={classes.section_with__navigation}>
@@ -73,14 +74,16 @@ function LatestProject({ projects, projectSectionItems, settings }) {
                         </div>
                         <div className={classes.slider}>
                             <SwiperComps settings={settings}>
-                                {projects.map((project) => (
-                                    <Slide
-                                        className={classes.item}
-                                        key={project.slug}
-                                    >
-                                        <ProjectSlider project={project} />
-                                    </Slide>
-                                ))}
+                                {projects.map((project) =>
+                                    project.projects.map((project2) => (
+                                        <Slide
+                                            className={classes.item}
+                                            key={project.slug}
+                                        >{console.log(project2)}
+                                            <ProjectSlider project={project2} />
+                                        </Slide>
+                                    ))
+                                )}
                             </SwiperComps>
                         </div>
                     </div>

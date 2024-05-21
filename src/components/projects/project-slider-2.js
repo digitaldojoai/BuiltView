@@ -9,8 +9,8 @@ function ProjectSliderTwo({ projects, settings }) {
         pagination: false,
         spaceBetween: 30,
         navigation: {
-            nextEl: '.project-button-next',
-            prevEl: '.project-button-prev',
+            nextEl: '.project-button-prev',
+            prevEl: '.project-button-next',
         },
         breakpoints: {
             1200: {

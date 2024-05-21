@@ -21,27 +21,6 @@ function Footer({ footerItems }) {
                                                 alt={footerItem?.footerLogoAlt}
                                             />
                                         </Link>
-                                        {/* <p
-                                            className={classes.desc}
-                                            dangerouslySetInnerHTML={{
-                                                __html: footerItem?.excerpt,
-                                            }}
-                                        /> */}
-                                        {/* <div className={classes.inquary}>
-                                            <h2
-                                                className={classes.inquary_info}
-                                            >
-                                                {footerItem?.inquary}
-                                            </h2>
-                                            <Link
-                                                href="tel://+12345-879-854"
-                                                className={
-                                                    classes.inquary_number
-                                                }
-                                            >
-                                                {footerItem?.inquaryNumber}
-                                            </Link>
-                                        </div> */}
                                     </div>
                                 </Col>
                                 <Col
@@ -69,30 +48,6 @@ function Footer({ footerItems }) {
                                         </ul>
                                     </div>
                                 </Col>
-                                {/* <Col
-                                    lg={{ span: 3 }}
-                                    sm={{ span: 6 }}
-                                    className="ps-lg-50 pt-40 pt-lg-0"
-                                >
-                                    <div className={classes.widget__item}>
-                                        <h2 className={classes.widget__title}>
-                                            {footerItem?.quickLinkTitle}
-                                        </h2>
-                                        <ul className={classes.widget__list}>
-                                            {footerItem?.quickLinkList?.map(
-                                                (item) => (
-                                                    <li key={item.id}>
-                                                        <Link
-                                                            href={`/${item.path}`}
-                                                        >
-                                                            {item.title}
-                                                        </Link>
-                                                    </li>
-                                                )
-                                            )}
-                                        </ul>
-                                    </div>
-                                </Col> */}
                                 <Col
                                     xl={{ span: 3 }}
                                     lg={{ span: 4 }}

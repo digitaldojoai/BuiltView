@@ -3,19 +3,14 @@ import { Col } from 'react-bootstrap';
 import Link from 'next/link';
 import classes from './project.module.scss';
 
-function ProjectSidebar({
-    clientName,
-    location,
-    projectsInfo,
-    budget,
-    architect,
-    duration,
-}) {
+function ProjectSidebar({ clientName, location, projectsInfo, email, phone }) {
     return (
         <Col lg={{ span: 3 }}>
             <div className="sidebar pt-max-md-25">
                 <div className={`${classes.sidebar_widget} mb-30`}>
-                    <h2 className={classes.sidebar_widget__title}>title</h2>
+                    <h2 className={classes.sidebar_widget__title}>
+                        Client Details
+                    </h2>
                     <ul className={classes.sidebar_list}>
                         <li>
                             Client Name:{' '}
@@ -28,21 +23,21 @@ function ProjectSidebar({
                         </li>
 
                         <li>
-                            Projects Done: <span className="text-primary">{projectsInfo}</span>
+                            Projects Done:{' '}
+                            <span className="text-primary">{projectsInfo}</span>
                         </li>
 
                         <li>
-                            Budget:{' '}
-                            <span className="text-primary">{budget}</span>
+                            Location:{' '}
+                            <span className="text-primary">{location}</span>
                         </li>
 
                         <li>
-                            Architect:{' '}
-                            <span className="text-primary">{architect}</span>
+                            Email: <span className="text-primary">{email}</span>
                         </li>
                         <li>
-                            Duration:{' '}
-                            <span className="text-primary">{duration}</span>
+                            Phone Number:{' '}
+                            <span className="text-primary">{phone}</span>
                         </li>
                     </ul>
                 </div>
@@ -55,8 +50,7 @@ ProjectSidebar.propTypes = {
     clientName: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     projectsInfo: PropTypes.string.isRequired,
-    budget: PropTypes.string.isRequired,
-    architect: PropTypes.string.isRequired,
-    duration: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+    phone: PropTypes.string.isRequired,
 };
 export default ProjectSidebar;

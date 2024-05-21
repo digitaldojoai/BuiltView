@@ -5,7 +5,6 @@
     position: relative;
 }
 .top {
-   
     background-color: $primary;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -52,6 +51,7 @@
     &__list {
         display: flex;
         justify-content: center;
+        align-items: center;
         @include breakpoint(max-lg-device) {
             justify-content: flex-end;
         }
@@ -152,8 +152,8 @@
 /* -Fixed Logo- */
 .fixed {
     &__logo {
-        background-color: rgb(255, 255, 255);
-        width: 10%;
+        background-color: $secondary;
+        width: 7%;
         height: 100%;
         position: absolute;
         top: 0px;
@@ -162,12 +162,7 @@
         justify-content: center;
         -webkit-box-align: center;
         align-items: center;
-        
-        .logo {
-
-            margin: 0 auto !important;
-            
-        }
+        margin-left: 25px;
     }
 }
 
@@ -245,9 +240,44 @@
     }
 }
 
-
-@media (min-width: 992px){
-    .top{
+@media (min-width: 992px) {
+    .top {
         display: none;
+    }
+}
+
+// styling for the last 2 nav btns (login and register)
+.newNavBtnLogin {
+    background-color: $primary;
+    color: $white;
+    font-size: 16px;
+    padding: 12px;
+    padding-top: 5px !important;
+    padding-bottom: 35px !important;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    &:hover {
+        background-color: $white;
+        color: $primary;
+    }
+}
+
+.newNavBtnRegister {
+    background-color: $white;
+    color: $secondary !important;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 5px !important;
+    padding-bottom: 35px !important;
+    height: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    &:hover {
+        background-color: $primary;
+        color: $white !important;
     }
 }

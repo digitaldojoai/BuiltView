@@ -116,13 +116,16 @@
 }
 .btn {
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
     color: $white;
-    padding: 50px;
+    padding: 15px;
+
+  
     z-index: 1;
     &:before {
         background-color: $primary;
-        opacity: 0.77;
+        opacity: 0.77;   
+        border-radius: 5px 0px 5px 5px;
         content: '';
         width: 100%;
         height: calc(100% + 3px);

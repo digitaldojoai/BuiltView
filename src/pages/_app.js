@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 import Layout from '../components/layout/layout';
@@ -20,6 +22,7 @@ function MyApp({ Component, pageProps }) {
                     />
                     <link rel="icon" href="/favicon.png" />
                 </Head>
+                <ToastContainer />
                 <Component {...pageProps} />
                 <ScrollToTop />
             </>
@@ -35,6 +38,8 @@ function MyApp({ Component, pageProps }) {
                 />
                 <link rel="icon" href="/favicon.png" />
             </Head>
+            <ToastContainer />
+
             <Component {...pageProps} />
             <ScrollToTop />
         </Layout>

@@ -13,15 +13,8 @@ function AboutOne({ aboutItems }) {
                         <div className={classes.section}>
                             <div className={classes.section__wrap}>
                                 <div className={classes.section__title}>
-                                    <span>{aboutItem?.sectionSubtitle}</span>
                                     <h2>{aboutItem?.sectionTitle}</h2>
                                 </div>
-                                <p
-                                    className={classes.section__desc}
-                                    dangerouslySetInnerHTML={{
-                                        __html: aboutItem.sectionDesc,
-                                    }}
-                                />
                             </div>
                         </div>
                         <Row>
@@ -31,7 +24,6 @@ function AboutOne({ aboutItems }) {
                                         <img
                                             src={aboutItem?.pattern}
                                             alt={aboutItem?.patternAlt}
-                                            
                                         />
                                     </div>
                                     <div className={classes.img}>

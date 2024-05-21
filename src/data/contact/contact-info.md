@@ -15,25 +15,25 @@ infoList:
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://+096-12458-875-895',
+            path: 'tel:+096-12458-875-895',
             listValue: '+12345 879 854',
         },
         {
             id: 'infoList-02',
             listText: 'Fax:',
-            path: 'tel://+096-12547-895-874',
+            path: 'tel:+096-12547-895-874',
             listValue: '(+096) 12547 895 874',
         },
         {
             id: 'infoList-03',
             listText: 'Email:',
-            path: 'mailto://info@example.com',
+            path: 'mailto:info@example.com',
             listValue: 'info@example.com',
         },
         {
             id: 'infoList-04',
             listText: 'Web:',
-            path: 'mailto://www.example.com',
+            path: 'mailto:www.example.com',
             listValue: 'www.example.com',
         },
     ]

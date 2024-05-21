@@ -69,7 +69,7 @@ function Header() {
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
-                                        <Link href="tel://01225-265-847">
+                                        <Link href="tel:01225-265-847">
                                             01225 265 847
                                         </Link>
                                     </div>
@@ -89,7 +89,7 @@ function Header() {
                                 <div className={classes.right}>
                                     <div>
                                         <Link href="/login">Login</Link>
-                                        <Link href="/register">/ Register</Link>
+                                        <Link href="/register">Register</Link>
                                     </div>
                                     <div
                                         className={`${
@@ -213,16 +213,28 @@ function Header() {
                                             <Link href="/contact">
                                                 <span>Contact us</span>
                                             </Link>
-                                          
                                         </li>
                                         <li className={classes.separator} />
 
                                         <li className={classes.dropdown_holder}>
-                                            <Link href="/login">Login </Link>
+                                            <Link
+                                                className={
+                                                    classes.newNavBtnLogin
+                                                }
+                                                href="/login"
+                                            >
+                                                Login{' '}
+                                            </Link>
                                         </li>
+
                                         <li className={classes.dropdown_holder}>
-                                            <Link href="register">
-                                                / Register
+                                            <Link
+                                                className={
+                                                    classes.newNavBtnRegister
+                                                }
+                                                href="/register"
+                                            >
+                                                Register{' '}
                                             </Link>
                                         </li>
                                     </ul>
@@ -233,9 +245,9 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
                             <img
-                                src="/images/logo.svg"
+                                src="/images/logo.png"
                                 alt="Header Dark Logo"
-                                width='110%'
+                                width="110%"
                             />
                         </Link>
                     </div>

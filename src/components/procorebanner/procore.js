@@ -25,7 +25,7 @@ function Procore() {
                     to their specific organizational requirements
                 </span>
                 <Link
-                    href="#"
+                    href="/contact"
                     className="margin-for-contact-btn button-bg-pricing"
                 >
                     Contact Now

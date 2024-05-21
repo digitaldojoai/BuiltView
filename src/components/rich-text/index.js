@@ -8,7 +8,7 @@ function RichText({ richTexts, project }) {
         <div className={classes.item}>
             {richTexts?.map((richText) => (
                 <Row className="pb-35 g-30" key={richText.id}>
-                    <Col lg={{ span: 4 }} className="align-self-center">
+                    <Col lg={{ span: 5 }} className="align-self-center">
                         <div className="content">
                             <p className={`${classes.desc} min-lg-w238`}>
                                 {richText?.textOne}
@@ -21,8 +21,8 @@ function RichText({ richTexts, project }) {
                             </p>
                         </div>
                     </Col>
-                    <Col lg={{ span: 8 }}>
-                        <div className={`${classes.group_image} pb-20`}>
+                    <Col lg={{ span: 6 }}>
+                        <div className={`${classes.group_image}`}>
                             <div className={classes.single_image}>
                                 <img
                                     src='/images/projects/logo1.jpeg'

@@ -86,7 +86,6 @@
 //newsletter component styling:
 .margin-for-newsletter {
     margin-top: 150px;
-    // background-color: $primary;
 }
 
 //foooter styling
@@ -94,15 +93,19 @@
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    align-items: center;
+    align-items: flex-start;
 }
 
 //banners in features page
 .container-banners-features {
-    margin-top: 150px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+
+.container-banners-features h2{
+    margin-bottom: 80px;
 }
 
 // client details page
@@ -332,4 +335,12 @@
 // breadcrumbs contact
 .white-text{
     color: white;
+}
+
+//title above sections (our products, our services, our features)
+.title-to-be-moved-up{
+    margin-bottom: 60px;
+}
+.project-detail{
+    margin-top: 0px !important;
 }

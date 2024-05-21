@@ -30,15 +30,13 @@ function ProjectTwoColumnsGrid({ projects }) {
                             className={classes.loadmore_btn}
                             onClick={loadMore}
                         >
-                            Load more
+                            View more
                         </button>
                     </div>
                 )}
                 {noOfElement > projects.length && (
                     <div className={classes.project_btn__wrap}>
-                        <span className={classes.loadedText}>
-                            All item has been loaded!
-                        </span>
+                        <span className={classes.loadedText}>{}</span>
                     </div>
                 )}
             </Container>

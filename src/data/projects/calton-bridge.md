@@ -16,10 +16,10 @@ isFeatured: true
 
 clientName: 'John'
 location: 'USA'
-ProjectsDone: 200
-Budget: $400,000
-Architect: Andrew Design Agency
-Duration: 2 months
+projectsDone: '200'
+Email: $400,000
+PhoneNumber: +216 1234 234 234
+
 
 projects: 
   - title: 'Project1'
@@ -34,4 +34,12 @@ projects:
     image: /images/project-03.jpg
     duration: '2 months'
     slug: 'project3'
+  - title: 'Project3'
+    image: /images/project-02.jpg
+    duration: '51 months'
+    slug: 'project4'
+  - title: 'Project3'
+    image: /images/project-01.jpg
+    duration: '5 months'
+    slug: 'project5'
 ---

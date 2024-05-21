@@ -13,7 +13,7 @@ function ProjectDetail({
     projectsSidebar,
 }) {
     return (
-        <div className={classes.area}>
+        <div className={classes.newArea}>
             <Container>
                 <Row>
                     <ProjectContent
@@ -26,9 +26,9 @@ function ProjectDetail({
                         clientName={project.clientName}
                         location={project.location}
                         projectsInfo={project.projectsDone}
-                        budget={project.Budget}
-                        architect={project.Architect}
-                        duration={project.Duration}
+                        email={project.Email}
+                        phone={project.phoneNumber}
+                       
                         projectsSidebar={projectsSidebar}
                     />
                 </Row>
