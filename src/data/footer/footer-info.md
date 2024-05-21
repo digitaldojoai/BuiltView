@@ -15,22 +15,14 @@ informationList:
             title: 'Clients',
             path: 'clients',
         },
-        { id: 'informationList-04', title: 'Pricing', path: 'pricing' },
-        { id: 'informationList-05', title: 'FAQs', path: 'faq' },
-        { id: 'informationList-06', title: 'Contact us', path: 'contact' },
+    
     ]
 quickLinkTitle: 'Quick Links'
 quickLinkList:
     [
-        { id: 'quickLinkList-01', title: 'Support Center', path: 'contact' },
-        { id: 'quickLinkList-02', title: 'Offers & Promotion', path: 'about' },
-        {
-            id: 'quickLinkList-03',
-            title: 'Terms & Conditions',
-            path: 'contact',
-        },
-        { id: 'quickLinkList-04', title: 'Payment Method', path: 'contact' },
-        { id: 'quickLinkList-05', title: 'Clients & Reviews', path: 'about' },
+        { id: 'informationList-04', title: 'Pricing', path: 'pricing' },
+        { id: 'informationList-05', title: 'FAQs', path: 'faq' },
+        { id: 'informationList-06', title: 'Contact us', path: 'contact' },
     ]
 contactInfoTitle: 'Contact Info'
 widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'

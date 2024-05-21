@@ -211,7 +211,12 @@ function Header() {
                                         </li>
                                         <li className={classes.dropdown_holder}>
                                             <Link href="/contact">
-                                                <span>Contact us</span>
+                                                <span>Contact</span>
+                                            </Link>
+                                        </li>
+                                        <li className={classes.dropdown_holder}>
+                                            <Link href="/blogs/blog-leftsidebar">
+                                                <span>Blogs</span>
                                             </Link>
                                         </li>
                                         <li className={classes.separator} />

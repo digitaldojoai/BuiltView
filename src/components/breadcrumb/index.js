@@ -1,3 +1,4 @@
+import { color } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { Container } from 'react-bootstrap';
 
@@ -10,6 +11,7 @@ function Breadcrumb({ subTitle, title, desc, bg, under, white }) {
         minHeight: '460px',
         display: 'flex',
         alignItems: 'center',
+        color:'white'
     };
     return (
         <div style={style}>

@@ -16,6 +16,7 @@ import Testimonial from '../components/testimonial';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import VideoComponent from '../components/video/video';
 import BannerFour from '../components/banner/index-4';
+import LatestBlogItem from '../components/blogs/latest-blog-item';
 
 function HomePage({
     heroItems,
@@ -49,12 +50,13 @@ function HomePage({
                 />
             </Head>
             <Hero heroItems={heroItems} />
+            <AboutOne aboutItems={aboutItems} />
+            <Counter />
             <h2 className="title-video-main align-self-center title-to-be-moved-up">
                 Our Product
             </h2>
             <VideoComponent />
 
-            <AboutOne aboutItems={aboutItems} />
             <BannerFour
                 bannerFourItems={bannerFourItems}
                 bannerSection={bannerSection}
@@ -63,6 +65,8 @@ function HomePage({
                 projects={projects}
                 projectSectionItems={projectSectionItems}
             />
+
+            <LatestBlog blogs={blogs} blogSectionItems={blogSectionItems} />
 
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />

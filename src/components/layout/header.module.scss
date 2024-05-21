@@ -56,7 +56,7 @@
             justify-content: flex-end;
         }
         > li {
-            display: inline-block;
+            display: flex;
             position: relative;
             &:not(:nth-last-child(2)) {
                 margin-right: 55px;
@@ -78,14 +78,14 @@
                 font-size: 20px;
                 span {
                     position: relative;
-                    display: block;
+                    display: inline-block;
+
                     &:before {
                         background-color: $primary;
                         content: '';
                         position: absolute;
                         bottom: -10px;
                         left: 0;
-                        width: 0;
                         height: 1px;
                         opacity: 0;
                         visibility: hidden;
@@ -256,7 +256,6 @@
     padding-bottom: 35px !important;
     height: 10px;
     margin-right: 10px;
-    border-radius: 5px;
     font-weight: 600;
     transition: background-color 0.3s ease, color 0.3s ease;
     &:hover {
@@ -269,7 +268,6 @@
     background-color: $white;
     color: $secondary !important;
     font-size: 16px;
-    border-radius: 5px;
     padding: 5px;
     padding-top: 5px !important;
     padding-bottom: 35px !important;

@@ -15,6 +15,7 @@ function ProjectFullwidthPage({
     bannerTwoItems,
     newsletterItems,
     footerItems,
+    faqItems,
 }) {
     return (
         <>
@@ -28,7 +29,7 @@ function ProjectFullwidthPage({
                 desc=""
                 bg="/images/hero/faq.jpg"
             />
-            <Faq />
+            <Faq faqItems={faqItems} />
 
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
@@ -41,6 +42,7 @@ export function getStaticProps() {
     const bannerTwoItems = getAllItems('banner-2');
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
+    const faqItems = getAllItems('faq');
 
     return {
         props: {
@@ -48,6 +50,7 @@ export function getStaticProps() {
             bannerTwoItems,
             newsletterItems,
             footerItems,
+            faqItems,
         },
     };
 }
@@ -57,6 +60,7 @@ ProjectFullwidthPage.propTypes = {
     bannerTwoItems: PropTypes.instanceOf(Object).isRequired,
     newsletterItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
+    faqItems: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default ProjectFullwidthPage;

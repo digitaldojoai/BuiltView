@@ -39,6 +39,7 @@ function Hero({ heroItems, settings }) {
                             />
                             <div
                                 className={`desc-animation ${classes.desc}`}
+                                style={{ fontSize: '30px' }}
                                 dangerouslySetInnerHTML={{
                                     __html: heroItem.desc,
                                 }}

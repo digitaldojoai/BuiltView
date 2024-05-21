@@ -9,7 +9,7 @@ function AboutOne({ aboutItems }) {
             {aboutItems?.map((aboutItem) => {
                 const CheckIcon = FaIcons[aboutItem?.checkIcon];
                 return (
-                    <Container key={aboutItem.id}>
+                    <Container className='container-main-about' key={aboutItem.id}>
                         <div className={classes.section}>
                             <div className={classes.section__wrap}>
                                 <div className={classes.section__title}>
@@ -18,7 +18,7 @@ function AboutOne({ aboutItems }) {
                             </div>
                         </div>
                         <Row>
-                            <Col lg={{ span: 6 }}>
+                            <Col className='container-main-pic-pattern' lg={{ span: 5 }}>
                                 <div className={classes.img__wrap}>
                                     <div className={classes.pattern}>
                                         <img
@@ -30,7 +30,7 @@ function AboutOne({ aboutItems }) {
                                         <img
                                             src={aboutItem?.image}
                                             alt={aboutItem?.alt}
-                                            className="img-full"
+                                            className="img-full about-section-img"
                                         />
                                     </div>
                                 </div>

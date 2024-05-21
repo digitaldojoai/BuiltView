@@ -1,9 +1,26 @@
 import Link from 'next/link';
+import { useState } from 'react';
+import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
 
 function Login() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const validateFields = (e) => {
+        e.preventDefault();
+
+
+        if (!email.trim()) {
+            errors.email = 'email is required';
+        } else if (!password) {
+            toast.error('Password is required');
+        } else {
+            toast.success('Login Successful');
+        }
+    };
+    // function to handle email validation and submit
     return (
         <div className={classes.parent}>
             <div className={classes.area}>
@@ -16,7 +33,10 @@ function Login() {
                         />
                     </Col>
                     <Col lg={{ span: 6 }}>
-                        <form className={`${classes.form}`}>
+                        <form
+                            className={`${classes.form}`}
+                            onSubmit={validateFields}
+                        >
                             <h2 className={classes.title}>Sign In</h2>
                             <span className={classes.subtitle}>
                                 Welcome Back!
@@ -37,12 +57,17 @@ function Login() {
                                         type="email"
                                         placeholder="Email Address"
                                         id="LoginEmailId"
+                                        onChange={(e) =>
+                                            setEmail(e.target.value)
+                                        }
+                                        value={email}
                                     />
                                 </Col>
                                 <Col xs={{ span: 12 }}>
                                     <label
                                         htmlFor="LoginPasswordId"
                                         className={classes.label}
+                                        value={password}
                                     >
                                         Password
                                     </label>
@@ -51,6 +76,9 @@ function Login() {
                                         type="password"
                                         placeholder="Password"
                                         id="LoginPasswordId"
+                                        onChange={(e) =>
+                                            setPassword(e.target.value)
+                                        }
                                     />
                                 </Col>
 

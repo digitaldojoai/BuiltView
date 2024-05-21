@@ -7,6 +7,7 @@ import SwiperComps, { Slide } from '../swiper';
 function LatestBlog({ blogs, blogSectionItems, settings }) {
     settings = {
         pagination: false,
+        autoplay: true,
         spaceBetween: 30,
         breakpoints: {
             1200: {

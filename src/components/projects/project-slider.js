@@ -6,7 +6,7 @@ function ProjectSlider({ project }) {
 
     return (
         <div className="project-item">
-            {console.log(project.image)}
+     
             <div className="project-img">
                 <img src={imagePath} alt="img" />
             </div>

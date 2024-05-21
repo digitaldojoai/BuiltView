@@ -31,10 +31,36 @@ function Footer({ footerItems }) {
                                 >
                                     <div className={classes.widget__item}>
                                         <h2 className={classes.widget__title}>
-                                            {footerItem?.informationTitle}
+                                            Quick Links
                                         </h2>
                                         <ul className={classes.widget__list}>
                                             {footerItem?.informationList?.map(
+                                                (item) => (
+                                                    <li key={item.id}>
+                                                        <Link
+                                                            href={`/${item.path}`}
+                                                        >
+                                                            {item.title}
+                                                        </Link>
+                                                    </li>
+                                                )
+                                            )}
+                                        </ul>
+                                    </div>
+                                </Col>
+
+                                <Col
+                                    xl={{ span: 3 }}
+                                    lg={{ span: 2 }}
+                                    sm={{ span: 6 }}
+                                    className="ps-xl-80 pt-40 pt-lg-0"
+                                >
+                                    <div className={classes.widget__item}>
+                                        <h2 className={classes.widget__title}>
+                                            {footerItem?.informationTitle}
+                                        </h2>
+                                        <ul className={classes.widget__list}>
+                                            {footerItem?.quickLinkList?.map(
                                                 (item) => (
                                                     <li key={item.id}>
                                                         <Link

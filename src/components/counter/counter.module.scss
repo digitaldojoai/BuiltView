@@ -2,9 +2,7 @@
 @import '../../styles/abstract/custom-mixins';
 
 .area {
-    @include breakpoint(min-md-device) {
-        padding-top: 140px;
-    }
+   
     @include breakpoint(max-sm-device) {
         padding-top: 95px;
     }

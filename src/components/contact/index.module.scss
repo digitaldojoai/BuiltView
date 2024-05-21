@@ -137,3 +137,31 @@
 .form_input__field option:disabled {
     color: gray; /* This will make the placeholder gray */
 }
+.select_wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+
+    &::after {
+        content: '▼';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-130%);
+        margin: inherit;
+        pointer-events: none;
+    }
+
+    .form_input__field__select {
+        width: 100%;
+        padding: 13px;
+        border: 1px solid #dee2e6;
+        font-size: 16px;
+        color: #333;
+        background-color: #fff;
+        -webkit-appearance: none; // Remove default appearance for Chrome
+        -moz-appearance: none; // Remove default appearance for Firefox
+        appearance: none; // Remove default appearance
+    }
+}
