@@ -208,7 +208,7 @@ export default function Faq() {
                 <Link
                     href="#"
                     className={`${classes.link__btn} button-bg-pricing`}
-                    style={{ fontWeight: '900' }}
+                    style={{ fontWeight: '400' }}
                 >
                     Book now{' '}
                     <span
