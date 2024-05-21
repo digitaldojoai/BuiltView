@@ -11,9 +11,7 @@ function Newsletter({ newsletterItems }) {
         e.preventDefault();
         if (!email.trim()) {
             toast.error('email is required');
-        } else if (
-            !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
-        ) {
+        } else if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
             toast.error('Invalid email address');
         }
     };

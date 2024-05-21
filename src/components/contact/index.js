@@ -29,9 +29,7 @@ function Contact({ contactItems }) {
         if (!email.trim()) {
             errors.email = 'Email is required';
             toast.error('email is required');
-        } else if (
-            !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
-        ) {
+        } else if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
             errors.email = 'Invalid email address';
             toast.error('Invalid email address');
         }
@@ -159,11 +157,7 @@ function Contact({ contactItems }) {
                                                 }
                                                 className={`${classes.form_input__field__select} ${classes.form_input__field__select}`}
                                             >
-                                                <option
-                                                    value=""
-                                                    disabled
-                                                    selected
-                                                >
+                                                <option disabled selected>
                                                     Services
                                                 </option>
                                                 <option value="Construction">
