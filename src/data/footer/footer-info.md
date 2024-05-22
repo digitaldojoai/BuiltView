@@ -34,17 +34,17 @@ socialList:
         {
             id: 'socialList-01',
             socialIcon: 'FaFacebookF',
-            path: 'https://www.example.com',
+            path: '#',
         },
         {
             id: 'socialList-02',
             socialIcon: 'FaTwitter',
-            path: 'https://www.example.com',
+            path: '#',
         },
         {
             id: 'socialList-03',
             socialIcon: 'FaInstagram',
-            path: 'https://www.example.com',
+            path: '#',
         },
     ]
 ---

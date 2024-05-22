@@ -74,7 +74,7 @@ function Team({ teamItems, teamSectionItems, settings }) {
                                                         classes.social_link__wrap
                                                     }
                                                 >
-                                                    <Link href="https://www.example.com">
+                                                    <Link href="#">
                                                         <FaShareAlt />
                                                     </Link>
                                                     <ul
@@ -83,17 +83,17 @@ function Team({ teamItems, teamSectionItems, settings }) {
                                                         }
                                                     >
                                                         <li>
-                                                            <Link href="https://www.example.com">
+                                                            <Link href="#">
                                                                 <FaFacebookF />
                                                             </Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://www.example.com">
+                                                            <Link href="#">
                                                                 <FaTwitter />
                                                             </Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://www.example.com">
+                                                            <Link href="#">
                                                                 <FaInstagram />
                                                             </Link>
                                                         </li>

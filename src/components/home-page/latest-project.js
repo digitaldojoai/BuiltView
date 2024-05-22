@@ -39,7 +39,6 @@ function LatestProject({ projects, projectSectionItems, settings }) {
                     </Link>
                 </div>
                 <Container fluid className="px-0">
-            
                     <div className={classes.slider_with__section}>
                         <div className={classes.section_area}>
                             <div className={classes.section_with__navigation}>
@@ -78,7 +77,7 @@ function LatestProject({ projects, projectSectionItems, settings }) {
                                     project.projects.map((project2) => (
                                         <Slide
                                             className={classes.item}
-                                            key={project.slug}
+                                            key={project2.slug}
                                         >
                                             <ProjectSlider project={project2} />
                                         </Slide>

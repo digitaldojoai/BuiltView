@@ -25,21 +25,21 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'project1'
+    slug: 'projecta1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'project2'
+    slug: 'projecta2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'project3'
+    slug: 'projecta3'
   - title: 'Project3'
     image: /images/project-02.jpg
     duration: '51 months'
-    slug: 'project4'
+    slug: 'projecta4'
   - title: 'Project3'
     image: /images/project-01.jpg
     duration: '5 months'
-    slug: 'project5'
+    slug: 'projecta5'
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Overpass Road'
 image: logo6.jpeg
-slug: midland-highway
+slug: overpass-road
 subTitle: ''
 dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
@@ -25,13 +25,13 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'project1'
+    slug: 'projecte1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'project2'
+    slug: 'projecte2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'project3'
+    slug: 'projecte3'
 ---
