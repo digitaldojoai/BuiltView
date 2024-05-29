@@ -67,6 +67,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                             {blogSidebar?.categoryTitle}
                         </h2>
                         <ul className={`${classes.sidebar_widget__list}`}>
+                            {console.log(categories)}
                             {categories?.map((category) => (
                                 <li key={category}>
                                     <Link

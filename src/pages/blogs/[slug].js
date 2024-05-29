@@ -17,19 +17,20 @@ function BlogDetailPage({
     newsletterItems,
     footerItems,
 }) {
+    console.log('here is the full blog', blog);
     return (
         <>
             <Head>
-                <title>{blog.title} - Oxybuild</title>
+                <title>{blog.title} - BuiltView</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
                 />
             </Head>
             <Breadcrumb
                 subTitle="Our Blog"
                 title={blog?.title}
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                // desc="Construction of itself, because it is pain some proper style design occur are pleasure"
             />
             <BlogDetail
                 blog={blog}
