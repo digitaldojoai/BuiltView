@@ -8,7 +8,7 @@ function ProjectTwoColumnsItem({ project }) {
 
     return (
         <Col lg={{ span: 6 }}>
-            <div className="project-item">
+            <div className="project-item" >
                 <Link href={linkPath} className="project-img">
                     <img src={imagePath} alt={project?.title} />
                 </Link>

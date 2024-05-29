@@ -28,7 +28,7 @@ function OurClients({
             <Breadcrumb
                 subTitle="Our Clients"
                 title="Happy Clients"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="We turn our clients’ construction dreams into reality"
             />
             <BrandTwo brandItems={brandItems} />
             <BannerTwo bannerTwoItems={bannerTwoItems} />

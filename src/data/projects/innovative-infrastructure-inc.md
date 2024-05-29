@@ -1,9 +1,9 @@
 ---
-title: 'Railway Tunnel'
-image: logo2.jpeg
-slug: railway-tunnel
+title: 'Innovative Infrastructure Inc.'
+image: logo11.png
+slug: innovative-infrastructure-inc
 subTitle: ''
-dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+dummyText: 'Specializes in infrastructure projects, including transportation systems.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
 groupImageTwo: '/images/project-detail/1-2-222x245.jpg'
@@ -25,13 +25,13 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'projecth1'
+    slug: 'projectd1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'projecth2'
+    slug: 'projectd2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'projecth3'
+    slug: 'projectd3'
 ---

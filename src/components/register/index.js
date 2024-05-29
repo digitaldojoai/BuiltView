@@ -93,7 +93,6 @@ function Register() {
     const handleSubmit = (e) => {
         e.preventDefault();
         const errors = validateFields();
-        console.log('here is the result:', Object.keys(errors).length === 0);
     };
     return (
         <div className={`${classes.parent}`}>

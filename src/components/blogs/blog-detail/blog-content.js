@@ -7,7 +7,6 @@ import classes from './index.module.scss';
 
 function BlogContent({ blog, richTexts }) {
     const imagePath = `/images/blogs/${blog?.slug}/${blog?.largeImage}`;
-    console.log('blog', blog);
     return (
         <Col lg={{ span: 8 }} className="pe-lg-45">
             <div className="banner">

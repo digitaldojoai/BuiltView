@@ -24,7 +24,7 @@ function ProjectTwoColumnsPage({
                 title="We Provide the Best "
                 under="Tool for our Clients"
                 bg="/images/hero/faq.jpg"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="We turn our clients’ construction dreams into reality"
             />
             <ProjectTwoColumns projects={projects} />
             <Newsletter newsletterItems={newsletterItems} />

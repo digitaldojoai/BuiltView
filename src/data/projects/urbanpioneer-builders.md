@@ -1,9 +1,9 @@
 ---
-title: 'Midland Highway'
-image: logo4.jpeg
-slug: midland-highway
+title: 'UrbanPioneer Builders'
+image: logo10.png
+slug: urbanpioneer-builders
 subTitle: ''
-dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+dummyText: 'Focuses on urban development projects, including residential, commercial, and mixed-use buildings.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
 groupImageTwo: '/images/project-detail/1-2-222x245.jpg'
@@ -25,13 +25,13 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'projectd1'
+    slug: 'projectc1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'projectd2'
+    slug: 'projectc2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'projectd3'
+    slug: 'projectc3'
 ---

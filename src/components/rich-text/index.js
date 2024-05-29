@@ -25,7 +25,7 @@ function RichText({ richTexts, project }) {
                         <div className={`${classes.group_image}`}>
                             <div className={classes.single_image}>
                                 <img
-                                    src='/images/projects/logo1.jpeg'
+                                    src='/images/projects/logo8.png'
                                     alt={richText?.groupImageAlt}
                                 />
                             </div>

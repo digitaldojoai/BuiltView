@@ -2,7 +2,7 @@
 id: 'about-01'
 sectionTitle: 'We Construct your needs'
 sectionSubtitle: 'About Us'
-sectionDesc: 'Construction of itself, because it is pain, but <br /> because some proper style design occur in toil and pain pleasure we have expert team'
+sectionDesc: 'We turn our clients’ construction dreams into reality'
 image: '/images/about/about.jpeg'
 alt: 'About Image'
 pattern: '/images/about/Dots.png'

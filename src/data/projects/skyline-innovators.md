@@ -1,9 +1,9 @@
 ---
-title: 'Road Roller'
-image: logo3.jpeg
-slug: road-roller
+title: 'Skyline Innovators'
+image: logo9.png
+slug: skyline-innovators
 subTitle: ''
-dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+dummyText: 'Specializes in constructing high-rise buildings and urban infrastructure.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
 groupImageTwo: '/images/project-detail/1-2-222x245.jpg'
@@ -25,13 +25,13 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'projecti1'
+    slug: 'projectb1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'projecti2'
+    slug: 'projectb2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'projecti3'
+    slug: 'projectb3'
 ---

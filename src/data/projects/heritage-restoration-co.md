@@ -1,9 +1,9 @@
 ---
-title: 'Haven Valley'
-image: logo3.jpeg
-slug: haven-valley
+title: 'Heritage Restoration Co.'
+image: logo12.png
+slug: heritage-restoration-co
 subTitle: ''
-dummyText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+dummyText: 'Facilitates the restoration and preservation of historical buildings.'
 breadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 groupImageOne: '/images/project-detail/1-1-226x245.jpg'
 groupImageTwo: '/images/project-detail/1-2-222x245.jpg'
@@ -25,13 +25,13 @@ projects:
   - title: 'Project1'
     image: /images/project-01.jpg
     duration: '2 months'
-    slug: 'projectc1'
+    slug: 'projecte1'
   - title: 'Project2'
     image: /images/project-02.jpg
     duration: '2 months'
-    slug: 'projectc2'
+    slug: 'projecte2'
   - title: 'Project3'
     image: /images/project-03.jpg
     duration: '2 months'
-    slug: 'projectc3'
+    slug: 'projecte3'
 ---

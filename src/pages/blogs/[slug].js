@@ -17,7 +17,6 @@ function BlogDetailPage({
     newsletterItems,
     footerItems,
 }) {
-    console.log('here is the full blog', blog);
     return (
         <>
             <Head>

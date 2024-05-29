@@ -4,11 +4,11 @@ import { Col } from 'react-bootstrap';
 
 function ProjectFullwidthItem({ project }) {
     const imagePath = `/images/projects/${project?.image}`;
-    const linkPath = `/projects/${project?.slug}`;
+    const linkPath = `/clients/${project?.slug}`;
 
     return (
         <Col lg={{ span: 3 }} md={{ span: 6 }}>
-            <div className="project-item">
+            <div className="project-item" style={{ backgroundColor: 'blue' }}>
                 <Link href={linkPath} className="project-img">
                     <img src={imagePath} alt={project?.title} />
                 </Link>
