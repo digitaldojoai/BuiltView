@@ -1,11 +1,11 @@
 ---
 title: 'The Backbone of Modern Infrastructure: Construction Management'
-mediumImage: 'deep-dive-into-md.jpg'
+mediumImage: 'blogpic4.jpeg'
 tag:
     - 'construction'
-largeImage: 'deep-dive-into-lg.jpg'
+largeImage: 'blogpic4.jpeg'
 blogMeta: 'DEVID - 20 AUGUST - Construction'
-excerpt: 'Construction of itself, because it is pain because some proper style design'
+excerpt: 'In the world of infrastructure and urban development, construction management stands as...'
 detailBreadcrumbSubTitle: 'Our Blog'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 detailSubTitle: 'What is Construction Management?'

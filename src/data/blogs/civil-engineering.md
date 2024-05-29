@@ -1,9 +1,9 @@
 ---
 title: 'Understanding the SOE Phase'
-mediumImage: 'civil-engineering-md.jpg'
-largeImage: 'civil-engineering-lg.jpg'
+mediumImage: 'blogpic1.jpeg'
+largeImage: 'blogpic1.jpeg'
 blogMeta: 'DEVID - 20 AUGUST - ARCHITECTURE'
-excerpt: 'Construction of itself, because it is pain because some proper style design'
+excerpt: 'The Support of Excavation (SOE) phase is a critical component of the construction process...'
 detailBreadcrumbSubTitle: 'Our Blog'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 detailSubTitle: 'What is the SOE Phase?'

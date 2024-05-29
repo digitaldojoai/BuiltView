@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 import classes from './blog.module.scss';
 
 function BlogLeftSidebarItem({ blog }) {
-    const imagePath = `/images/blogs/${blog?.slug}/${blog?.mediumImage}`;
+    const imagePath = `/images/blogs/${blog?.mediumImage}`;
     const linkPath = `/blogs/${blog?.slug}`;
 
     return (

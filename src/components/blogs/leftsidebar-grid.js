@@ -26,7 +26,7 @@ function BlogLeftSidebarGrid({ blogs, blogsSidebar, categories, tags }) {
                                 />
                             ))}
                         </Row>
-                        <PageNavigation />
+                        {blogs.length > 6 && <PageNavigation />}
                     </Col>
                 </Row>
             </Container>

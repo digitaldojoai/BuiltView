@@ -1,9 +1,9 @@
 ---
 title: 'The Art and Science of Building Demolition'
-mediumImage: 'civil-engineering-md.jpg'
-largeImage: 'civil-engineering-lg.jpg'
+mediumImage: 'blogpic3.jpeg'
+largeImage: 'blogpic3.jpeg'
 blogMeta: 'DEVID - 20 AUGUST - Construction'
-excerpt: 'Construction of itself, because it is pain because some proper style design'
+excerpt: 'Demolition is a critical phase in the lifecycle of buildings, paving the way for new...'
 detailBreadcrumbSubTitle: 'Our Blog'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 detailSubTitle: 'Understanding Demolition in Construction'

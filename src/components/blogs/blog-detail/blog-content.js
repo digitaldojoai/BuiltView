@@ -6,7 +6,7 @@ import DisqusForm from '../../disqus';
 import classes from './index.module.scss';
 
 function BlogContent({ blog, richTexts }) {
-    const imagePath = `/images/blogs/${blog?.slug}/${blog?.largeImage}`;
+    const imagePath = `/images/blogs/${blog?.largeImage}`;
     return (
         <Col lg={{ span: 8 }} className="pe-lg-45">
             <div className="banner">

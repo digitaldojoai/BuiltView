@@ -1,9 +1,9 @@
 ---
 title: Building Safely- Key Construction Safety Metrics for Engineers
-mediumImage: 'deep-dive-into-md.jpg'
-largeImage: 'deep-dive-into-lg.jpg'
+mediumImage: 'blogpic5.png'
+largeImage: 'blogpic5.png'
 blogMeta: DEVID - 20 AUGUST - Renovation
-excerpt: Construction of itself, because it is pain because some proper style design
+excerpt: In the realm of construction, safety is paramount. The importance of ...
 detailBreadcrumbSubTitle: Our Blog
 detailBreadcrumbDesc: Construction of itself, because it is pain some proper style design occur are pleasure
 

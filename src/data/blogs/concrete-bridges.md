@@ -1,9 +1,9 @@
 ---
 title: 'Rising to the Sky: The Intricacies of Superstructure Construction'
-mediumImage: 'civil-engineering-md.jpg'
-largeImage: 'civil-engineering-lg.jpg'
+mediumImage: 'blogpic2.jpeg'
+largeImage: 'blogpic2.jpeg'
 blogMeta: 'DEVID - 20 AUGUST - ARCHITECTURE'
-excerpt: 'Construction of itself, because it is pain because some proper style design'
+excerpt: 'The superstructure phase of construction is where the skeleton of a building takes shape...'
 detailBreadcrumbSubTitle: 'Our Blog'
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 detailSubTitle: 'What is the Superstructure?'
