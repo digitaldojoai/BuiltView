@@ -52,6 +52,11 @@ ul {
     display: block;
     height: 14rem;
 }
+@media screen and (min-width: 768px) {
+    .img-full {
+        height: 35rem;
+    }
+}
 input,
 textarea {
     &:focus-visible {
