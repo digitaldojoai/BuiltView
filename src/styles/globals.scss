@@ -104,7 +104,7 @@
     flex-direction: column;
 }
 
-.container-banners-features h2{
+.container-banners-features h2 {
     margin-bottom: 80px;
 }
 
@@ -125,13 +125,12 @@
     padding-bottom: 20px;
 }
 
-.list-of-services{
+.list-of-services {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 14px;
-
 }
 .css-1d1ry76 {
     margin-top: 100px;
@@ -145,7 +144,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 21px 29px 0px;
 }
 
-.price-card-title{
+.price-card-title {
     margin-top: 20px;
 }
 
@@ -158,7 +157,7 @@
     height: 250px;
     object-fit: cover;
 }
-.project-img img{
+.project-img img {
     width: 100%;
 }
 @media (max-width: 768px) {
@@ -276,7 +275,6 @@
     margin: 100px;
 }
 
-
 .chakra-accordion__item {
     width: 100%;
 }
@@ -336,15 +334,15 @@
 }
 
 // breadcrumbs contact
-.white-text{
+.white-text {
     color: white;
 }
 
 //title above sections (our products, our services, our features)
-.title-to-be-moved-up{
+.title-to-be-moved-up {
     margin-bottom: 60px;
 }
-.project-detail{
+.project-detail {
     margin-top: 0px !important;
 }
 
@@ -352,9 +350,15 @@
 //     width: 500px;
 //     height: 500px;
 // }
-.container-main-about{
+.container-main-about {
     height: 50%;
 }
-.container-main-pic-pattern img{
+.container-main-pic-pattern img {
     max-height: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .registerFormContainer {
+        padding-left: 2rem;
+    }
 }

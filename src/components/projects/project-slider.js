@@ -3,10 +3,9 @@ import Link from 'next/link';
 
 function ProjectSlider({ project }) {
     const imagePath = project.image;
-
+    console.log(imagePath);
     return (
         <div className="project-item">
-     
             <div className="project-img">
                 <img src={imagePath} alt="img" />
             </div>

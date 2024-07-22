@@ -52,7 +52,7 @@ category:
     - all | <span>09</span>
     - renovation | <span>03</span>
 tag:
-    - renovation | <span>
+    - renovation
 isFeatured: true
 
 ---

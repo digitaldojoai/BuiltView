@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { Col, Container, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
+import { useRouter } from 'next/navigation';
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -94,22 +95,31 @@ function Register() {
         e.preventDefault();
         const errors = validateFields();
     };
+    const router = useRouter();
     return (
         <div className={`${classes.parent}`}>
             <div className={classes.area}>
                 <Row className={classes.container}>
-                    <Col lg={{ span: 5 }}>
-                        <img
-                            className={classes.image}
-                            src="/images/login.jpg"
-                            alt="builtview"
-                        />
-                    </Col>
-                    <Col lg={{ span: 6 }}>
+                    <Col lg={{ span: 6 }} className="registerFormContainer">
                         <form
                             className={`${classes.form}  ${classes.registerContainer}`}
                             onSubmit={handleSubmit}
                         >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"
+                                width={45}
+                                height={45}
+                                style={{
+                                    marginBottom: '10px',
+                                    cursor: 'pointer',
+                                }}
+                                onClick={() => {
+                                    router.back();
+                                }}
+                            >
+                                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z" />
+                            </svg>
                             <h2 className={classes.title}>Sign Up</h2>
                             <span className={classes.subtitle}>
                                 Enter all the information below to start your
@@ -404,6 +414,13 @@ function Register() {
                                 </Link>
                             </Col>
                         </form>
+                    </Col>
+                    <Col lg={{ span: 5 }}>
+                        <img
+                            className={classes.image}
+                            src="/images/login.jpg"
+                            alt="builtview"
+                        />
                     </Col>
                 </Row>
             </div>

@@ -83,6 +83,7 @@ export default function Faq({ faqItems }) {
                         style={{
                             fontWeight: '400',
                             fontSize: '30px',
+                            height: '33px',
                             marginBottom: '5%',
                         }}
                     >

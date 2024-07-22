@@ -8,7 +8,7 @@ function ProjectFullwidthItem({ project }) {
 
     return (
         <Col lg={{ span: 3 }} md={{ span: 6 }}>
-            <div className="project-item" style={{ backgroundColor: 'blue' }}>
+            <div className="project-item">
                 <Link href={linkPath} className="project-img">
                     <img src={imagePath} alt={project?.title} />
                 </Link>

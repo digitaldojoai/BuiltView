@@ -89,7 +89,14 @@ function Header() {
                                 <div className={classes.right}>
                                     <div>
                                         <Link href="/login">Login</Link>
-                                        <Link href="/register">Register</Link>
+                                        <Link
+                                            href="/register"
+                                            style={{
+                                                paddingLeft: '10px',
+                                            }}
+                                        >
+                                            Register
+                                        </Link>
                                     </div>
                                     <div
                                         className={`${
@@ -210,13 +217,13 @@ function Header() {
                                             </ul> */}
                                         </li>
                                         <li className={classes.dropdown_holder}>
-                                            <Link href="/contact">
-                                                <span>Contact</span>
+                                            <Link href="/blogs/blog-leftsidebar">
+                                                <span>Blogs</span>
                                             </Link>
                                         </li>
                                         <li className={classes.dropdown_holder}>
-                                            <Link href="/blogs/blog-leftsidebar">
-                                                <span>Blogs</span>
+                                            <Link href="/contact">
+                                                <span>Contact</span>
                                             </Link>
                                         </li>
                                         <li className={classes.separator} />

@@ -62,7 +62,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                             </button>
                         </form>
                     </div>
-                    <div className={`${classes.sidebar_widget} mb-40`}>
+                    {/* <div className={`${classes.sidebar_widget} mb-40`}>
                         <h2 className={classes.sidebar_title}>
                             {blogSidebar?.categoryTitle}
                         </h2>
@@ -80,8 +80,8 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                                 </li>
                             ))}
                         </ul>
-                    </div>
-                    <div className={`${classes.sidebar_widget} mb-40`}>
+                    </div> */}
+                    {/* <div className={`${classes.sidebar_widget} mb-40`}>
                         <h2 className={`${classes.sidebar_title} mb-25`}>
                             {blogSidebar?.popularPostTitle}
                         </h2>
@@ -129,7 +129,7 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                                 ))}
                             </SwiperComps>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={`${classes.sidebar_widget}`}>
                         <h2 className={classes.sidebar_title}>
                             {blogSidebar?.tagTitle}

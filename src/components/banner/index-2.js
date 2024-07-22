@@ -5,7 +5,7 @@ import classes from './banner-2.module.scss';
 
 function BannerTwo({ bannerTwoItems }) {
     return (
-        <div className={`${classes.bg} `}>
+        <div className={` `}>
             <Container fluid className="px-0">
                 {bannerTwoItems?.map((bannerTwoItem) => (
                     <Row className="g-0" key={bannerTwoItem.id}>

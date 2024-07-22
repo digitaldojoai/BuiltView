@@ -32,7 +32,6 @@ function BlogLeftSidebarItem({ blog }) {
                                 Read more
                             </Link>
                         </li>
-                        
                     </ul>
                 </div>
             </div>

@@ -100,6 +100,11 @@
         &__input {
             display: flex;
         }
+        @include breakpoint(max-md-device) {
+            &__input {
+                flex-direction: column;
+            }
+        }
     }
     &_input {
         &__field {
