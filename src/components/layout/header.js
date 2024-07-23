@@ -259,7 +259,6 @@ function Header() {
                             <img
                                 src="/images/logo.png"
                                 alt="Header Dark Logo"
-                                width="110%"
                             />
                         </Link>
                     </div>
