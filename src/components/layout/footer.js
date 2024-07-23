@@ -129,7 +129,7 @@ function Footer({ footerItems }) {
                     <div className={classes.bottom}>
                         <Container>
                             <Row>
-                                <Col md={{ span: 6 }} sm={{ span: 4 }}></Col>
+                                <Col md={{ span: 6 }} sm={{ span: 4 }} />
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>

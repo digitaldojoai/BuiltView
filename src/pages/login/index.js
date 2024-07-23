@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import Breadcrumb from '../../components/breadcrumb';
-import Footer from '../../components/layout/footer';
 import Login from '../../components/login';
-import Newsletter from '../../components/newsletter/newsletter';
 import { getAllItems } from '../../lib/items-util';
 
 function LoginRegisterPage({ newsletterItems, footerItems }) {

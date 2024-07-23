@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { Col, Container, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
-import { useRouter } from 'next/navigation';
 
 function Register() {
     const [email, setEmail] = useState('');
