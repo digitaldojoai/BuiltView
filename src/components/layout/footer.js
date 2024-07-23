@@ -74,7 +74,7 @@ function Footer({ footerItems }) {
                                         </ul>
                                     </div>
                                 </Col>
-                                <Col
+                                {/* <Col
                                     xl={{ span: 3 }}
                                     lg={{ span: 4 }}
                                     className="pt-40 pt-lg-0"
@@ -122,7 +122,7 @@ function Footer({ footerItems }) {
                                             </span>
                                         </div>
                                     </div>
-                                </Col>
+                                </Col> */}
                             </Row>
                         </Container>
                     </div>

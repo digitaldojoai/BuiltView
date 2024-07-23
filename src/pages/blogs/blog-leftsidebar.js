@@ -24,8 +24,8 @@ function BlogLeftSidebarPage({
             </Head>
             <Breadcrumb
                 subTitle="Our Blog"
-                title="Left Sidebar"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                title="Stay Up to Date"
+                desc="Read about the latest trends in the consutruction industry and stay updated."
             />
             <BlogLeftSidebar
                 blogs={blogs}
