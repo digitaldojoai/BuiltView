@@ -1,22 +1,15 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import AboutOne from '../components/about';
-import BannerOne from '../components/banner';
-import BannerTwo from '../components/banner/index-2';
-import BrandOne from '../components/brand';
+import BannerFour from '../components/banner/index-4';
 import Counter from '../components/counter';
 import Hero from '../components/home-page/hero';
-import HomePageServices from '../components/home-page/homepage-services';
 import LatestBlog from '../components/home-page/latest-blog';
 import LatestProject from '../components/home-page/latest-project';
 import Footer from '../components/layout/footer';
 import Newsletter from '../components/newsletter/newsletter';
-import Team from '../components/team';
-import Testimonial from '../components/testimonial';
-import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import VideoComponent from '../components/video/video';
-import BannerFour from '../components/banner/index-4';
-import LatestBlogItem from '../components/blogs/latest-blog-item';
+import { getAllItems, getFeaturedItems } from '../lib/items-util';
 
 function HomePage({
     heroItems,
