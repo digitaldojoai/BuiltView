@@ -25,7 +25,7 @@ function Header() {
             ? header.current?.classList.add('is-sticky')
             : header.current?.classList.remove('is-sticky');
     };
-    // End here
+    // End here/
 
     // Header Search Toggle Activation
     const [search, setSearch] = useState(false);
@@ -57,7 +57,13 @@ function Header() {
             <header className={classes.area}>
                 <div className={classes.top}>
                     <Container>
-                        <Row>
+                        <Row
+                            style={{
+                                justifyContent: 'space-between',
+                                padding: '0 10px',
+                                alignItems: 'center',
+                            }}
+                        >
                             <Col
                                 xl={{ span: 4, offset: 2 }}
                                 lg={{ span: 5, offset: 3 }}
@@ -75,18 +81,45 @@ function Header() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={{ span: 6 }} className="d-block d-lg-none">
+                            <Col
+                                sm={{ span: 3 }}
+                                className="d-block d-lg-none "
+                                style={{
+                                    flexShrink: 0,
+                                    width: 'auto',
+                                    maxWidth: 'none',
+                                    padding: 0,
+                                    marginTop: 0,
+                                }}
+                            >
                                 <div className="header-logo">
                                     <Link href="/" className={classes.logo}>
                                         <img
-                                            src="/images/logo.svg"
+                                            src="/images/logo-2.png"
                                             alt="Header Lisght Logo"
+                                            width={100}
                                         />
                                     </Link>
                                 </div>
                             </Col>
-                            <Col xl={6} lg={4} sm={6}>
-                                <div className={classes.right}>
+                            <Col
+                                xl={6}
+                                lg={4}
+                                sm={9}
+                                style={{
+                                    flexShrink: 0,
+                                    width: 'auto',
+                                    maxWidth: 'none',
+                                    padding: 0,
+                                    marginTop: 0,
+                                }}
+                            >
+                                <div
+                                    className={classes.right}
+                                    style={{
+                                        paddingTop: '0',
+                                    }}
+                                >
                                     <div>
                                         <Link href="/login">Login</Link>
                                         <Link
