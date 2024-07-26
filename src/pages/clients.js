@@ -16,8 +16,8 @@ function ProjectTwoColumnsPage({
     return (
         <>
             <Head>
-                <title>Projects Two Columns - BuiltView</title>
-                <meta name="description" content="Projects Two Columns" />
+                <title>Clients</title>
+                <meta name="description" content="Clients" />
             </Head>
             <Breadcrumb
                 subTitle="Our Clients"

@@ -19,10 +19,10 @@ function ServiceDetailsPage({
         <>
             <Head>
                 <title>{service.title} - BuiltView</title>
-                <meta
+                {/* <meta
                     name="description"
                     content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
-                />
+                /> */}
             </Head>
             <Breadcrumb
             

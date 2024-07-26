@@ -18,8 +18,8 @@ function ProjectFullwidthPage({
     return (
         <>
             <Head>
-                <title>Projects FullWidth - BuiltView</title>
-                <meta name="description" content="Projects FullWidth" />
+                <title>Pricing</title>
+                <meta name="description" content="Pricing" />
             </Head>
             <Breadcrumb
                 subTitle="Pricing"

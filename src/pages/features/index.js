@@ -31,11 +31,11 @@ function ServicePage({
     return (
         <>
             <Head>
-                <title>Services - BuiltView</title>
-                <meta
+                <title>Features - BuiltView</title>
+                {/* <meta
                     name="description"
                     content="BuiltView - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using BuiltView - Construction React Next JS Template."
-                />
+                /> */}
             </Head>
             <Breadcrumb
                 subTitle="What we offer"

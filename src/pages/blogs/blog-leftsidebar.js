@@ -19,7 +19,7 @@ function BlogLeftSidebarPage({
     return (
         <>
             <Head>
-                <title>Blogs LeftSidebar - BuiltView</title>
+                <title>Blogs</title>
                 <meta name="description" content="All Blogs" />
             </Head>
             <Breadcrumb
