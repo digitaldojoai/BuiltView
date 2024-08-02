@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { IoSearchOutline } from 'react-icons/io5';
+import { useRouter, useSearchParams } from 'next/navigation';
 import classes from './blog.module.scss';
 import SwiperComps, { Slide } from '../swiper';
 
@@ -37,6 +38,9 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
             },
         },
     };
+    const router = useRouter();
+    const params = useSearchParams();
+    const search = params.get('search');
     return (
         <div className={classes.sidebar}>
             {blogsSidebar?.map((blogSidebar) => (
@@ -45,13 +49,23 @@ function BlogSidebar({ blogsSidebar, categories, tags, settings }) {
                         <h2 className={classes.sidebar_title}>
                             {blogSidebar?.searchTitle}
                         </h2>
-                        <form className={classes.sidebar_form}>
+                        <form
+                            className={classes.sidebar_form}
+                            onSubmit={(e) => {
+                                e.preventDefault();
+                            }}
+                        >
                             <input
                                 id="search"
                                 className={classes.searchbox_input}
                                 type="search"
                                 name="search"
                                 placeholder="Type your keyword..."
+                                onChange={(e) => {
+                                    e.preventDefault();
+                                    router.push(`?search=${e.target.value}`);
+                                }}
+                                value={search}
                             />
                             <button
                                 type="button"

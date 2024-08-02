@@ -1,11 +1,19 @@
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
+import { useSearchParams } from 'next/navigation';
 import PageNavigation from '../page-navigation';
 import BlogSidebar from './blog-sidebar';
 import classes from './blog.module.scss';
 import BlogLeftSidebarItem from './leftsidebar-item';
 
 function BlogLeftSidebarGrid({ blogs, blogsSidebar, categories, tags }) {
+    const params = useSearchParams();
+    const search = params.get('search');
+    if (search) {
+        blogs = blogs.filter((blog) =>
+            blog.title.toLowerCase().includes(search.toLowerCase())
+        );
+    }
     return (
         <div className={classes.blog}>
             <Container>
