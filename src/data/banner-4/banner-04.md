@@ -1,7 +1,7 @@
 ---
 id: 'banner-04'
-title: 'Project  <br/> Customization'
-excerpt: 'Tailor project details and building elevations to specific requirements, ensuring accurate representation and effective management of construction projects.
+title: 'AI Search Engine'
+excerpt: 'Our state-of-the-art Al powered search engine allows you to access all the information pertaining to your project.
 '
 path: '/projects'
 dataCount: '04'

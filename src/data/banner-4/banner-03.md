@@ -1,7 +1,7 @@
 ---
 id: 'banner-03'
-title: '2D  <br/> Rendering'
-excerpt: 'Generate detailed visualizations of building designs, providing clear insights into construction progress and planning.
+title: 'The Daily'
+excerpt: 'Reporting, perfected. Using real time data directly from the field, customizable logs, and the Photos tool, our quick-to-compile Daily Reports allow you to share progress flawlessly.
 '
 path: '/projects'
 dataCount: '03'

@@ -32,7 +32,7 @@ function Hero({ heroItems, settings }) {
                                 {heroItem?.subtitle}
                             </span>
                             <div
-                                className={`title-animation ${classes.title}`}
+                                className={`title-animation ${classes.title} heroTitle`}
                                 dangerouslySetInnerHTML={{
                                     __html: heroItem.title,
                                 }}
@@ -45,11 +45,11 @@ function Hero({ heroItems, settings }) {
                                 }}
                             />
                             <div
-                                className={`btn-animation ${classes.btn_wrap}`}
+                                className={`btn-animation ${classes.btn_wrap} `}
                             >
                                 <Link
                                     href="/contact"
-                                    className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white}`}
+                                    className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white} HeroButton`}
                                 >
                                     {heroItem?.btnPrimaryText}
                                 </Link>

@@ -80,7 +80,7 @@
 
 //section styling in features
 .section-single-main {
-    min-height: 400px;
+    min-height: 420px;
 }
 
 //newsletter component styling:
@@ -331,6 +331,19 @@
     .sidebar-in-faq-page {
         width: 90%;
     }
+    .PartnerContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .LogoPart {
+        justify-content: center !important;
+    }
+
+    .ComingSoonVideo {
+        text-align: center;
+        margin-top: 100px !important;
+    }
 }
 
 // breadcrumbs contact
@@ -357,4 +370,38 @@
     .registerFormContainer {
         padding-left: 2rem;
     }
+    .heroTitle h2 {
+        font-size: 110px !important;
+        line-height: 100px !important;
+    }
+}
+
+.HeroButton {
+    width: 190px !important;
+}
+
+.LogoPart {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.LogoPart img {
+    width: 20rem;
+}
+
+.PartnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100px;
+    margin-top: 13rem;
+    margin-bottom: 12rem;
+    font-size: 1.5rem;
+}
+
+.ComingSoonVideo {
+    margin-top: 240px;
 }

@@ -192,11 +192,11 @@ function Header() {
                                                 <span>Features</span>
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/clients">
                                                 <span>Clients</span>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li className={classes.dropdown_holder}>
                                             <Link href="/pricing">
                                                 <span>Pricing</span>
