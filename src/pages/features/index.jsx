@@ -79,7 +79,12 @@ function ServicePage({
                 bannerFourFourItems={bannerFourFourItems}
                 bannerSection={bannerSection}
             />
-            <h2 className="title-video-main align-self-center title-to-be-moved-up">
+            <h2
+                className="title-video-main align-self-center title-to-be-moved-up"
+                style={{
+                    marginTop: '0',
+                }}
+            >
                 Our Product
             </h2>
             <VideoComponent />
