@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import { useRef, useState } from 'react';
 import { FaPlay } from 'react-icons/fa';
 import BannerTwo from '../../components/banner/index-2';
 import BannerTwoTwo from '../../components/banner/index-22';
@@ -9,7 +10,6 @@ import Footer from '../../components/layout/footer';
 import Newsletter from '../../components/newsletter/newsletter';
 import VideoComponent from '../../components/video/video';
 import { getAllItems } from '../../lib/items-util';
-import { useRef, useState } from 'react';
 
 function ServicePage({
     aboutItemsTwo,
