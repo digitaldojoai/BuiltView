@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { Container } from 'react-bootstrap';
-import AboutOne from '../components/about';
+import AboutOne from '../components/about/index';
 import BannerFour from '../components/banner/index-4';
 import Counter from '../components/counter';
 import Hero from '../components/home-page/hero';

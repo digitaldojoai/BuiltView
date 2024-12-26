@@ -38,21 +38,34 @@ function Hero({ heroItems, settings }) {
                                 }}
                             />
                             <div
-                                className={`desc-animation ${classes.desc}`}
+                                className={`desc-animation ${classes.desc} `}
                                 style={{ fontSize: '30px' }}
                                 dangerouslySetInnerHTML={{
                                     __html: heroItem.desc,
                                 }}
                             />
-                            <div
-                                className={`btn-animation ${classes.btn_wrap} `}
-                            >
-                                <Link
-                                    href="/contact"
-                                    className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white} HeroButton`}
+                            <div className="ButtonWrapper">
+                                {' '}
+                                <div
+                                    className={`btn-animation ${classes.btn_wrap} `}
                                 >
-                                    {heroItem?.btnPrimaryText}
-                                </Link>
+                                    <Link
+                                        href="/contact"
+                                        className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white} HeroButton`}
+                                    >
+                                        {heroItem?.btnPrimaryText}
+                                    </Link>
+                                </div>
+                                <div
+                                    className={`btn-animation ${classes.btn_wrap} `}
+                                >
+                                    <Link
+                                        href="/register"
+                                        className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white} HeroButton`}
+                                    >
+                                        Sign Up
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

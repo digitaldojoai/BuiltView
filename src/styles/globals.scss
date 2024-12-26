@@ -387,6 +387,62 @@
     align-items: center;
 }
 
+.ButtonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .ButtonWrapper {
+        flex-direction: column;
+    }
+}
+
+.AboutTitleContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 10rem;
+}
+
+.AboutTitleContainer .firstPart {
+    display: flex;
+    justify-content: start;
+}
+
+.AboutTitleContainer .secondPart {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 0.5rem;
+    position: relative;
+    left: 10rem;
+}
+
+.AboutTitleContainer .secondPart p {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+@media (max-width: 768px) {
+    .AboutTitleContainer .secondPart {
+        left: 0;
+    }
+
+    .AboutTitleContainer {
+        right: 0;
+    }
+
+    .AboutTitleContainer .secondPart p {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .AboutTitleContainer .secondPart {
+        gap: 0.3rem;
+    }
+}
+
 .LogoPart img {
     width: 20rem;
 }

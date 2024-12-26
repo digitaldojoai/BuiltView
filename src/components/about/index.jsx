@@ -16,7 +16,15 @@ function AboutOne({ aboutItems }) {
                         <div className={classes.section}>
                             <div className={classes.section__wrap}>
                                 <div className={classes.section__title}>
-                                    <h2>{aboutItem?.sectionTitle}</h2>
+                                    <div className="AboutTitleContainer">
+                                        <div className="firstPart">
+                                            <h2>Build, Track, Report...</h2>
+                                        </div>
+                                        <div className="secondPart">
+                                            <p>with</p>
+                                            <h2>BuiltView</h2>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
